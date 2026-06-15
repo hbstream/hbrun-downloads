@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "products": [
+    {
+      "id": "streamcore_sdk",
+      "name": "StreamCore SDK",
+      "latest_manifest": "manifests/streamcore-sdk/latest.json"
+    },
+    {
+      "id": "streamgate",
+      "name": "StreamGate",
+      "latest_manifest": "manifests/streamgate/latest.json"
+    }
+  ]
+}

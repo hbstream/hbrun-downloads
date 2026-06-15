@@ -1,0 +1,21 @@
+# Downloadable packages belong in GitHub Releases, not Git history.
+*.zip
+*.7z
+*.rar
+*.tar
+*.tgz
+*.tar.gz
+*.msi
+*.exe
+*.run
+*.deb
+*.rpm
+*.dmg
+*.pkg
+*.aar
+*.xcframework
+
+# Local tooling
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "product": "streamcore_sdk",
+  "version": "1.5.0-beta",
+  "release_channel": "beta",
+  "release_notes": "streamcore-sdk/1.5.0-beta/release-notes.md",
+  "packages": []
+}
