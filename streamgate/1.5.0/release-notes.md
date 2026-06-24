@@ -22,7 +22,7 @@ StreamGate 1.5.0 面向摄像头接入、视频分发、录像回放和业务系
 - 导入试用授权或商业授权后启用专业版能力
 - 支持厂商 SDK 适配、SRT 回传、高级 GB28181、转码、硬件编解码、综合指挥中心和开放接口
 
-### Windows 下载说明
+### Windows 下载
 
 当前 Release 提供 Windows ZIP 包。Windows installer 会在匹配的安装包发布后加入下载清单。
 

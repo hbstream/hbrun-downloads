@@ -63,28 +63,7 @@
       "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamgate-v1.5.0/streamgate-1.5.0-linux-aarch64-professional.tar.gz"
     }
   ],
-  "upgrade_packages": [
-    {
-      "platform": "windows_x86_64",
-      "edition": "standard",
-      "artifact_type": "zip",
-      "filename": "StreamGate-1.5.0-upgrade-windows-x64-standard.zip",
-      "size": 63959244,
-      "sha256": "bc6479ba53c0f35774da945945f6772ae54d4d47d67e536d89b7136f12bf6e82",
-      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamgate-v1.5.0/StreamGate-1.5.0-upgrade-windows-x64-standard.zip"
-    },
-    {
-      "platform": "windows_x86_64",
-      "edition": "professional",
-      "artifact_type": "zip",
-      "filename": "StreamGate-1.5.0-upgrade-windows-x64-professional.zip",
-      "size": 113611097,
-      "sha256": "bf3a66353b51b0eccfa20278602d9edff18be692a88390b36172e0168cf4e814",
-      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamgate-v1.5.0/StreamGate-1.5.0-upgrade-windows-x64-professional.zip"
-    }
-  ],
   "notes": [
-    "Windows installer packages will be listed after a matching installer build is published.",
-    "Upgrade packages are for same-edition manual replacement workflows. New installations should use the normal ZIP or tar.gz packages."
+    "Windows installer packages will be listed after a matching installer build is published."
   ]
 }

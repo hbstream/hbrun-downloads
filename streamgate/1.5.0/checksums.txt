@@ -2,7 +2,5 @@
 0645d6762e40663d8e6ae6a60f9c5780d4e66488ef3f5300e34194e3cfb0b581  streamgate-1.5.0-linux-aarch64-standard.tar.gz
 52f6fd8cf980ff56463161ba658aa426b744122144d273c8505e780e7d6257ee  streamgate-1.5.0-linux-x86_64-professional.tar.gz
 4371864703fe216dc0a91deec421d3acfe999a95e2941f14513ca3c97c9148ad  streamgate-1.5.0-linux-x86_64-standard.tar.gz
-bf3a66353b51b0eccfa20278602d9edff18be692a88390b36172e0168cf4e814  StreamGate-1.5.0-upgrade-windows-x64-professional.zip
-bc6479ba53c0f35774da945945f6772ae54d4d47d67e536d89b7136f12bf6e82  StreamGate-1.5.0-upgrade-windows-x64-standard.zip
 be93712fb7d2ba6e771aae48dbd65472596d30dad9bc58eaec455399d593cf53  StreamGate-1.5.0-windows-x64-professional.zip
 a27f0a914613e0408093eaf8cbb1526867cbd66cb9ebbeba198b0e5eef057ed6  StreamGate-1.5.0-windows-x64-standard.zip
