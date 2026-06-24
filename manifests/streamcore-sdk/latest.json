@@ -1,8 +1,93 @@
 {
   "schema_version": 1,
   "product": "streamcore_sdk",
-  "version": "1.5.0-beta",
-  "release_channel": "beta",
-  "release_notes": "streamcore-sdk/1.5.0-beta/release-notes.md",
-  "packages": []
+  "name": "StreamCore SDK",
+  "version": "1.3.1",
+  "release_channel": "stable",
+  "release_url": "https://github.com/hbstream/hbrun-downloads/releases/tag/streamcore-sdk-v1.3.1",
+  "release_notes": "streamcore-sdk/1.3.1/release-notes.md",
+  "checksum_file": "streamcore-sdk/1.3.1/checksums.txt",
+  "packages": [
+    {
+      "platform": "android_arm64_v8a",
+      "edition": "demo",
+      "artifact_type": "aar",
+      "filename": "streamcore-sdk.aar",
+      "size": 13183287,
+      "sha256": "576e2e8530e2ddf6a3911e30a86cd0d524bf92009b2b8f1bb9e4c096cb8d6469",
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcore-sdk-v1.3.1/streamcore-sdk.aar"
+    },
+    {
+      "platform": "dotnet_net451",
+      "edition": "demo",
+      "artifact_type": "nupkg",
+      "filename": "StreamCore.Sdk.1.3.1.nupkg",
+      "size": 45729399,
+      "sha256": "4d032b495eb3af902616b8c025207704dc1a30d8102839aecb94d2cda386e9ec",
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcore-sdk-v1.3.1/StreamCore.Sdk.1.3.1.nupkg"
+    },
+    {
+      "platform": "ios_arm64",
+      "edition": "demo",
+      "artifact_type": "tar.gz",
+      "filename": "streamcore_sdk_1.3.1_ios_arm64.tgz",
+      "size": 13391745,
+      "sha256": "58649d076fd216be26848017eb2b8c8dbebc6dd713ea0104e449199135320c28",
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcore-sdk-v1.3.1/streamcore_sdk_1.3.1_ios_arm64.tgz"
+    },
+    {
+      "platform": "ios_simulator_x86_64",
+      "edition": "demo",
+      "artifact_type": "tar.gz",
+      "filename": "streamcore_sdk_1.3.1_ios_simulator_x86_64.tgz",
+      "size": 28497674,
+      "sha256": "a7343b5abe145dc44ddc5f2a9fdf3b211fc1b2909109d84b915437898117107b",
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcore-sdk-v1.3.1/streamcore_sdk_1.3.1_ios_simulator_x86_64.tgz"
+    },
+    {
+      "platform": "linux_aarch64",
+      "edition": "demo",
+      "artifact_type": "tar.gz",
+      "filename": "streamcore_sdk_1.3.1_linux_aarch64.tgz",
+      "size": 47166398,
+      "sha256": "0beee4d8900b30b9e071bd5e8b29a6058a9d2c67aa01c140722d2806c1d93ced",
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcore-sdk-v1.3.1/streamcore_sdk_1.3.1_linux_aarch64.tgz"
+    },
+    {
+      "platform": "linux_x86_64",
+      "edition": "demo",
+      "artifact_type": "tar.gz",
+      "filename": "streamcore_sdk_1.3.1_linux_x86_64.tgz",
+      "size": 47607957,
+      "sha256": "8a4f15ef3c08cc7b44f68bd37a8adb210600aad914b12f169e455c368f747574",
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcore-sdk-v1.3.1/streamcore_sdk_1.3.1_linux_x86_64.tgz"
+    },
+    {
+      "platform": "macos_x86_64",
+      "edition": "demo",
+      "artifact_type": "tar.gz",
+      "filename": "streamcore_sdk_1.3.1_macos_x86_64.tgz",
+      "size": 15116634,
+      "sha256": "2bf4de62eaf9e26252a3c70f1f60fedfcac97ebcb432c8e14ae67eda6a30ec32",
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcore-sdk-v1.3.1/streamcore_sdk_1.3.1_macos_x86_64.tgz"
+    },
+    {
+      "platform": "windows_x86",
+      "edition": "demo",
+      "artifact_type": "zip",
+      "filename": "streamcore_sdk_1.3.1_windows_x86.zip",
+      "size": 22176005,
+      "sha256": "00347f45b458876144f204d0b867178557d94a91e365f036eff866a2dae89f24",
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcore-sdk-v1.3.1/streamcore_sdk_1.3.1_windows_x86.zip"
+    },
+    {
+      "platform": "windows_x86_64",
+      "edition": "demo",
+      "artifact_type": "zip",
+      "filename": "streamcore_sdk_1.3.1_windows_x86_64.zip",
+      "size": 23656306,
+      "sha256": "3d61e4e5c5a5431fddd6ce42d9a750508a977bcb24cf8a95c9d7959fcdf64860",
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcore-sdk-v1.3.1/streamcore_sdk_1.3.1_windows_x86_64.zip"
+    }
+  ]
 }

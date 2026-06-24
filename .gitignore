@@ -1,4 +1,4 @@
-# Downloadable packages belong in GitHub Releases, not Git history.
+# Downloadable packages are published as Release assets.
 *.zip
 *.7z
 *.rar
