@@ -7,14 +7,21 @@
 
 ## 中文说明
 
-`hbrun-downloads` 用于发布 HBRun 标准产品下载资产的公开索引、版本说明和校验信息。实际下载文件通过 GitHub Releases 提供。
+`hbrun-downloads` 用于发布 HBRun StreamCore SDK、HBRun StreamGate 等标准产品下载资产的公开索引、版本说明和校验信息。实际下载文件通过 GitHub Releases 提供。
 
 ### 当前产品
 
 | 产品 | 最新版本 | Release |
 | --- | --- | --- |
-| StreamCore SDK | 1.3.1 | [streamcore-sdk-v1.3.1](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcore-sdk-v1.3.1) |
-| StreamGate | 1.5.0 | [streamgate-v1.5.0](https://github.com/hbstream/hbrun-downloads/releases/tag/streamgate-v1.5.0) |
+| HBRun StreamCore SDK | 1.3.2 | [streamcore-sdk-v1.3.2](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcore-sdk-v1.3.2) |
+| HBRun StreamGate | 1.5.1 | [streamgate-v1.5.1](https://github.com/hbstream/hbrun-downloads/releases/tag/streamgate-v1.5.1) |
+
+### 官方入口
+
+- HBRun 官网：[https://hbrun.com](https://hbrun.com)
+- StreamCore SDK 产品页：[https://hbrun.com/products/streamcore-sdk](https://hbrun.com/products/streamcore-sdk)
+- StreamGate 产品页：[https://hbrun.com/products/streamgate](https://hbrun.com/products/streamgate)
+- 下载页：[https://hbrun.com/downloads](https://hbrun.com/downloads)
 
 ### 目录结构
 
@@ -36,14 +43,21 @@ Get-FileHash -Algorithm SHA256 .\StreamGate-1.5.0-windows-x64-standard.zip
 
 ## English
 
-`hbrun-downloads` publishes public indexes, release notes, and checksums for standard HBRun product downloads. Downloadable files are distributed through GitHub Releases.
+`hbrun-downloads` publishes public indexes, release notes, and checksums for standard HBRun StreamCore SDK, HBRun StreamGate, and related product downloads. Downloadable files are distributed through GitHub Releases.
 
 ### Current Products
 
 | Product | Latest Version | Release |
 | --- | --- | --- |
-| StreamCore SDK | 1.3.1 | [streamcore-sdk-v1.3.1](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcore-sdk-v1.3.1) |
-| StreamGate | 1.5.0 | [streamgate-v1.5.0](https://github.com/hbstream/hbrun-downloads/releases/tag/streamgate-v1.5.0) |
+| HBRun StreamCore SDK | 1.3.2 | [streamcore-sdk-v1.3.2](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcore-sdk-v1.3.2) |
+| HBRun StreamGate | 1.5.1 | [streamgate-v1.5.1](https://github.com/hbstream/hbrun-downloads/releases/tag/streamgate-v1.5.1) |
+
+### Official Links
+
+- HBRun website: [https://hbrun.com](https://hbrun.com)
+- StreamCore SDK product page: [https://hbrun.com/products/streamcore-sdk](https://hbrun.com/products/streamcore-sdk)
+- StreamGate product page: [https://hbrun.com/products/streamgate](https://hbrun.com/products/streamgate)
+- Downloads: [https://hbrun.com/downloads](https://hbrun.com/downloads)
 
 ### Layout
 
