@@ -1,78 +1,75 @@
 # HBRun Downloads
 
-<p>
-  <a href="#中文说明">中文</a> |
-  <a href="#english">English</a>
-</p>
-
-## 中文说明
-
-`hbrun-downloads` 用于发布 HBRun StreamCore SDK、HBRun StreamGate 等标准产品下载资产的公开索引、版本说明和校验信息。实际下载文件通过 GitHub Releases 提供。
-
-### 当前产品
-
-| 产品 | 最新版本 | Release |
-| --- | --- | --- |
-| HBRun StreamCore SDK | 1.3.2 | [streamcore-sdk-v1.3.2](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcore-sdk-v1.3.2) |
-| HBRun StreamGate | 1.5.1 | [streamgate-v1.5.1](https://github.com/hbstream/hbrun-downloads/releases/tag/streamgate-v1.5.1) |
-
-### 官方入口
-
-- HBRun 官网：[https://hbrun.com](https://hbrun.com)
-- StreamCore SDK 产品页：[https://hbrun.com/products/streamcore-sdk](https://hbrun.com/products/streamcore-sdk)
-- StreamGate 产品页：[https://hbrun.com/products/streamgate](https://hbrun.com/products/streamgate)
-- 下载页：[https://hbrun.com/downloads](https://hbrun.com/downloads)
-
-### 目录结构
-
-| 目录 | 内容 |
-| --- | --- |
-| `manifests/` | 可机器读取的产品下载索引 |
-| `streamcore-sdk/<version>/` | StreamCore SDK 版本说明和 SHA256 校验 |
-| `streamgate/<version>/` | StreamGate 版本说明和 SHA256 校验 |
-
-### 校验下载文件
-
-下载后请使用对应版本目录下的 `checksums.txt` 或 Release 中的 `SHA256SUMS.txt` 校验文件完整性。
-
-PowerShell 示例：
-
-```powershell
-Get-FileHash -Algorithm SHA256 .\StreamGate-1.5.0-windows-x64-standard.zip
-```
+[English](#english) | [简体中文](#简体中文)
 
 ## English
 
-`hbrun-downloads` publishes public indexes, release notes, and checksums for standard HBRun StreamCore SDK, HBRun StreamGate, and related product downloads. Downloadable files are distributed through GitHub Releases.
+This repository publishes release notes, checksums, and machine-readable indexes for HBRun product downloads. Installers and SDK archives are distributed through GitHub Releases.
 
-### Current Products
+### Current Releases
 
-| Product | Latest Version | Release |
+| Product | Version | Release |
 | --- | --- | --- |
-| HBRun StreamCore SDK | 1.3.2 | [streamcore-sdk-v1.3.2](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcore-sdk-v1.3.2) |
-| HBRun StreamGate | 1.5.1 | [streamgate-v1.5.1](https://github.com/hbstream/hbrun-downloads/releases/tag/streamgate-v1.5.1) |
+| HBRun StreamCore SDK | 1.3.3 | [streamcore-sdk-v1.3.3](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcore-sdk-v1.3.3) |
+| HBRun StreamGate | 1.5.2 | [streamgate-v1.5.2](https://github.com/hbstream/hbrun-downloads/releases/tag/streamgate-v1.5.2) |
+
+StreamCore SDK demo source and runnable demo packages are published separately in [hbstream/streamcore-sdk-demo](https://github.com/hbstream/streamcore-sdk-demo).
 
 ### Official Links
 
-- HBRun website: [https://hbrun.com](https://hbrun.com)
-- StreamCore SDK product page: [https://hbrun.com/products/streamcore-sdk](https://hbrun.com/products/streamcore-sdk)
-- StreamGate product page: [https://hbrun.com/products/streamgate](https://hbrun.com/products/streamgate)
+- Website: [https://hbrun.com](https://hbrun.com)
+- StreamCore SDK: [https://hbrun.com/products/streamcore-sdk](https://hbrun.com/products/streamcore-sdk)
+- StreamGate: [https://hbrun.com/products/streamgate](https://hbrun.com/products/streamgate)
 - Downloads: [https://hbrun.com/downloads](https://hbrun.com/downloads)
 
-### Layout
+### Repository Layout
 
 | Directory | Contents |
 | --- | --- |
-| `manifests/` | Machine-readable product download indexes |
+| `manifests/` | Machine-readable latest-release indexes |
 | `streamcore-sdk/<version>/` | StreamCore SDK release notes and SHA256 checksums |
 | `streamgate/<version>/` | StreamGate release notes and SHA256 checksums |
 
-### Verify Downloads
+### Verify a Download
 
-After downloading a package, verify it with the matching `checksums.txt` file or the `SHA256SUMS.txt` file attached to the release.
-
-PowerShell example:
+Compare the downloaded file with `SHA256SUMS.txt` attached to the release or the matching `checksums.txt` in this repository.
 
 ```powershell
-Get-FileHash -Algorithm SHA256 .\StreamGate-1.5.0-windows-x64-standard.zip
+Get-FileHash -Algorithm SHA256 .\StreamGate-1.5.2-windows-x64-standard-installer.exe
+```
+
+## 简体中文
+
+本仓库公开 HBRun 产品下载所需的版本说明、SHA256 校验值和机器可读索引。安装包与 SDK 压缩包通过 GitHub Releases 分发。
+
+### 当前版本
+
+| 产品 | 版本 | 发布页 |
+| --- | --- | --- |
+| HBRun StreamCore SDK | 1.3.3 | [streamcore-sdk-v1.3.3](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcore-sdk-v1.3.3) |
+| HBRun StreamGate | 1.5.2 | [streamgate-v1.5.2](https://github.com/hbstream/hbrun-downloads/releases/tag/streamgate-v1.5.2) |
+
+StreamCore SDK 演示程序源码和可运行演示包在 [hbstream/streamcore-sdk-demo](https://github.com/hbstream/streamcore-sdk-demo) 单独发布。
+
+### 官方入口
+
+- 官网：[https://hbrun.com](https://hbrun.com)
+- StreamCore SDK：[https://hbrun.com/products/streamcore-sdk](https://hbrun.com/products/streamcore-sdk)
+- StreamGate：[https://hbrun.com/products/streamgate](https://hbrun.com/products/streamgate)
+- 下载中心：[https://hbrun.com/downloads](https://hbrun.com/downloads)
+
+### 仓库结构
+
+| 目录 | 内容 |
+| --- | --- |
+| `manifests/` | 最新版本的机器可读索引 |
+| `streamcore-sdk/<version>/` | StreamCore SDK 版本说明与 SHA256 校验值 |
+| `streamgate/<version>/` | StreamGate 版本说明与 SHA256 校验值 |
+
+### 校验下载文件
+
+下载后请使用 Release 附带的 `SHA256SUMS.txt` 或本仓库对应版本的 `checksums.txt` 校验文件完整性。
+
+```powershell
+Get-FileHash -Algorithm SHA256 .\StreamGate-1.5.2-windows-x64-standard-installer.exe
 ```

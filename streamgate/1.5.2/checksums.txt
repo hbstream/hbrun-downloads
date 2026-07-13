@@ -1,0 +1,8 @@
+a6fa229acdd2702ed02bd2e4e86a862f135565e788bb1df8be41433bf84c723b  StreamGate-1.5.2-windows-x64-standard-installer.exe
+c2e08adddf7c1f2ee3b387cf18202605ab8738ba28ce1130618c9616af2490ab  StreamGate-1.5.2-windows-x64-standard.zip
+5954ac6c250f42dafe3e6061a0969028e1961dd0d874674c67afd04a1bd38cc1  StreamGate-1.5.2-windows-x64-professional-installer.exe
+3624e18a7fc22f3fa043901f6f2b09882ebc6b42eab10ebcbcb0c13bff08d575  StreamGate-1.5.2-windows-x64-professional.zip
+ebbc0b9ebb166a890a34302059843b88cf436565827727ab3db74e0c597f0a41  streamgate-1.5.2-linux-x86_64-standard.tar.gz
+7b1731f24c9a3c788319111d745dd00f7d1276041763abd334abb67c77ca01d4  streamgate-1.5.2-linux-aarch64-standard.tar.gz
+2415b9264e3d740a06dfade65aaba65da4a04d7aebc912000371b3bc8f57cc8a  streamgate-1.5.2-linux-x86_64-professional.tar.gz
+4f46a4e392381a3c18234e1ebb3728e60e7b9d1b630092ee9356470420553a72  streamgate-1.5.2-linux-aarch64-professional.tar.gz
