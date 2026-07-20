@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "product": "streamcall",
+  "name": "StreamCall",
+  "version": "0.1.0-alpha",
+  "release_channel": "alpha",
+  "prerelease": true,
+  "release_url": "https://github.com/hbstream/hbrun-downloads/releases/tag/streamcall-v0.1.0-alpha",
+  "mirror_release_url": "https://gitee.com/hbstream/hbrun-downloads/releases/tag/streamcall-v0.1.0-alpha",
+  "release_notes": "streamcall/0.1.0-alpha/release-notes.md",
+  "checksum_file": "streamcall/0.1.0-alpha/checksums.txt",
+  "authorization": {
+    "download_channel_ready": true,
+    "public_self_serve_sale_ready": false,
+    "license_granted_by_download": false,
+    "free_edition": {
+      "license_file_required": false,
+      "max_sites": 1,
+      "max_endpoints": 4,
+      "max_dispatchers": 1,
+      "max_cameras": 2,
+      "max_concurrent_calls": 1,
+      "first_party_clients_only": true,
+      "customer_integration_api_sdk": false,
+      "streamgate_bridge": false,
+      "oem_redistribution": false
+    },
+    "evaluation": {
+      "separately_issued_signed_license_required": true,
+      "duration_days": 30,
+      "non_commercial": true,
+      "app_or_package_binding_required_for_integration": true
+    }
+  },
+  "server_platform_contract": {
+    "supported": [
+      "ubuntu-22.04-x86_64"
+    ],
+    "deferred": [
+      "windows-x64"
+    ]
+  },
+  "trust": {
+    "algorithm": "Ed25519",
+    "manifest": "StreamCall-0.1.0-alpha-public-downloads.manifest.json",
+    "signature": "StreamCall-0.1.0-alpha-public-downloads.sig",
+    "public_key": "StreamCall-0.1.0-alpha-public-downloads.pub.pem",
+    "verifier": "Verify-StreamCall-Public-Downloads.mjs",
+    "public_key_spki_sha256": "b35858ffe8d5520210b2ea6aa9627cdf90f91c8d7b20452585062e3f77816573",
+    "os_code_signing_ready": false,
+    "android_store_signing_ready": false,
+    "apple_notarization_ready": false
+  },
+  "packages": [
+    {
+      "platform": "ubuntu_22_04_x86_64",
+      "edition": "free",
+      "role": "server",
+      "artifact_type": "tar.gz",
+      "filename": "StreamCall-Server-Free-0.1.0-alpha-Ubuntu-22.04-x86_64.tar.gz",
+      "size": 29870779,
+      "sha256": "bbe41119c8b5684113ba1d39c8fb20906f8828f7f1ec369a55b53469c2d7bda9",
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-v0.1.0-alpha/StreamCall-Server-Free-0.1.0-alpha-Ubuntu-22.04-x86_64.tar.gz",
+      "mirrors": {
+        "gitee": "https://gitee.com/hbstream/hbrun-downloads/releases/download/streamcall-v0.1.0-alpha/StreamCall-Server-Free-0.1.0-alpha-Ubuntu-22.04-x86_64.tar.gz"
+      }
+    },
+    {
+      "platform": "windows_x86_64",
+      "edition": "first_party",
+      "role": "endpoint_only",
+      "artifact_type": "zip",
+      "filename": "StreamCall-Endpoint-0.1.0-alpha-Windows-x86_64.zip",
+      "size": 81819692,
+      "sha256": "e402e6141b03c2a1de1e3bbdc35168bdf9483e3ac903425e6eaef8b1bbafdb80",
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-v0.1.0-alpha/StreamCall-Endpoint-0.1.0-alpha-Windows-x86_64.zip",
+      "mirrors": {
+        "gitee": "https://gitee.com/hbstream/hbrun-downloads/releases/download/streamcall-v0.1.0-alpha/StreamCall-Endpoint-0.1.0-alpha-Windows-x86_64.zip"
+      }
+    },
+    {
+      "platform": "ubuntu_22_04_x86_64",
+      "edition": "first_party",
+      "role": "endpoint_only",
+      "artifact_type": "tgz",
+      "filename": "StreamCall-Endpoint-0.1.0-alpha-Linux-x86_64.tgz",
+      "size": 52877673,
+      "sha256": "191996fc7dec590046430a39856162fc8a8985597e78a396c19ee6aade56ce8d",
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-v0.1.0-alpha/StreamCall-Endpoint-0.1.0-alpha-Linux-x86_64.tgz",
+      "mirrors": {
+        "gitee": "https://gitee.com/hbstream/hbrun-downloads/releases/download/streamcall-v0.1.0-alpha/StreamCall-Endpoint-0.1.0-alpha-Linux-x86_64.tgz"
+      }
+    },
+    {
+      "platform": "android_10_validated_device_class",
+      "edition": "evaluation",
+      "role": "first_party_endpoint_evaluation",
+      "artifact_type": "apk",
+      "filename": "StreamCall-Endpoint-0.1.0-alpha-Android-evaluation.apk",
+      "size": 53293542,
+      "sha256": "09b03fd6da23a626820c516b86577b1f8076963fe093f56c6f79b33600c94d7b",
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-v0.1.0-alpha/StreamCall-Endpoint-0.1.0-alpha-Android-evaluation.apk",
+      "mirrors": {
+        "gitee": "https://gitee.com/hbstream/hbrun-downloads/releases/download/streamcall-v0.1.0-alpha/StreamCall-Endpoint-0.1.0-alpha-Android-evaluation.apk"
+      }
+    }
+  ],
+  "excluded_public_downloads": [
+    "combined_linux_sale_archive",
+    "combined_windows_internal_regression_archive",
+    "starter_buyer_package",
+    "android_sdk_aar_and_source",
+    "macos_app_and_dmg",
+    "ios",
+    "customer_licenses_and_private_keys"
+  ]
+}
