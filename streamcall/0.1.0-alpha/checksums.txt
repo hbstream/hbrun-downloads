@@ -1,9 +1,0 @@
-77acffc45216587b35f7f0eccf9ded995667a054f2a6f9b5bb2be3739afb328f  StreamCall-0.1.0-alpha-RELEASE-NOTES.md
-2f7f81d81e1c94d1dfe389d1d4ab8ba88f9f001db73a1461eb5b1e5cddf25a14  StreamCall-0.1.0-alpha-public-downloads.manifest.json
-b3975fa40e2af2f5d41163a373f5e8a20223db1e36e214efb4084f71e032b593  StreamCall-0.1.0-alpha-public-downloads.pub.pem
-12cc8ea107627de0c7123798b37b54b2830b2a505c4732d95939376060e378cc  StreamCall-0.1.0-alpha-public-downloads.sig
-09b03fd6da23a626820c516b86577b1f8076963fe093f56c6f79b33600c94d7b  StreamCall-Endpoint-0.1.0-alpha-Android-evaluation.apk
-191996fc7dec590046430a39856162fc8a8985597e78a396c19ee6aade56ce8d  StreamCall-Endpoint-0.1.0-alpha-Linux-x86_64.tgz
-e402e6141b03c2a1de1e3bbdc35168bdf9483e3ac903425e6eaef8b1bbafdb80  StreamCall-Endpoint-0.1.0-alpha-Windows-x86_64.zip
-bbe41119c8b5684113ba1d39c8fb20906f8828f7f1ec369a55b53469c2d7bda9  StreamCall-Server-Free-0.1.0-alpha-Ubuntu-22.04-x86_64.tar.gz
-1df79427c7c0e7757da17881cad0c3a5fe4b377bac86d174c84f2cad82e9d3dc  Verify-StreamCall-Public-Downloads.mjs
