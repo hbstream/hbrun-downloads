@@ -38,8 +38,27 @@
   },
   "server_platform_contract": {
     "supported": [
+      "linux-x86_64"
+    ],
+    "distribution_name_locked": false,
+    "validated_full_stack_baselines": [
       "ubuntu-22.04-x86_64"
     ],
+    "requirements": {
+      "kernel_minimum": "4.18",
+      "systemd_minimum": 239,
+      "python_minimum": "3.8",
+      "recording": {
+        "docker_engine_minimum": "20.10",
+        "ffmpeg_minimum": "4.4",
+        "codecs": [
+          "h264",
+          "aac"
+        ],
+        "minimum_vcpu": 8,
+        "minimum_ram_gib": 8
+      }
+    },
     "deferred": [
       "windows-x64"
     ],
@@ -69,21 +88,30 @@
     "public_key": "streamcall/1.1.0/StreamCall-1.1.0-public-downloads.pub.pem",
     "metadata_in_release_assets": false
   },
+  "reproducibility": {
+    "source_date_epoch": 1784127993,
+    "exact_public_artifact_hashes_enforced": true
+  },
   "packages": [
     {
       "id": "linux_server_x86_64",
-      "platform": "ubuntu-22.04-x86_64",
+      "platform": "linux-x86_64",
       "edition": "free_by_default_without_license",
       "role": "server",
       "artifact_type": "linux-tar.gz",
-      "filename": "StreamCall-Server-1.1.0-Ubuntu-22.04-x86_64.tar.gz",
-      "size": 29869342,
-      "sha256": "fb50521b79ad447eee777d62ed0cddbf4cb33a82e5ed3bd3f4a8e62bbfb28084",
-      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.0/StreamCall-Server-1.1.0-Ubuntu-22.04-x86_64.tar.gz",
+      "filename": "StreamCall-Server-1.1.0-Linux-x86_64.tar.gz",
+      "size": 29862893,
+      "sha256": "9eee87a82a5aa52d3b7fe721edce4ed83ed65013b335adb51ed727c24dde2eeb",
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.0/StreamCall-Server-1.1.0-Linux-x86_64.tar.gz",
       "mirrors": {
-        "gitee": "https://gitee.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.0/StreamCall-Server-1.1.0-Ubuntu-22.04-x86_64.tar.gz"
+        "gitee": "https://gitee.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.0/StreamCall-Server-1.1.0-Linux-x86_64.tar.gz"
       },
-      "server_deployment_supported": true
+      "server_deployment_supported": true,
+      "distribution_name_locked": false,
+      "validated_full_stack_baselines": [
+        "ubuntu-22.04-x86_64"
+      ],
+      "host_preflight": "Check-Linux-Host.sh"
     },
     {
       "id": "windows_endpoint_x86_64",
@@ -108,7 +136,7 @@
       "artifact_type": "appimage",
       "filename": "StreamCall-Endpoint-1.1.0-Linux-x86_64.AppImage",
       "size": 55921144,
-      "sha256": "0c908239920e9b2fb0692b02d5603bec75ee2094975982da160ddfb6752528c7",
+      "sha256": "dc1ed131005f1259dd8e9324bdf619a7ff3001c0266befeadf3bc4dbb82d9c90",
       "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.0/StreamCall-Endpoint-1.1.0-Linux-x86_64.AppImage",
       "mirrors": {
         "gitee": "https://gitee.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.0/StreamCall-Endpoint-1.1.0-Linux-x86_64.AppImage"
@@ -137,8 +165,8 @@
       "role": "endpoint_only",
       "artifact_type": "dmg",
       "filename": "StreamCall-Endpoint-1.1.0-macOS-x86_64.dmg",
-      "size": 1109741,
-      "sha256": "f10b84938a69c7c97fa4f4e8cb78e4035bb8358cf8837b6d7aab8eeaebcfba24",
+      "size": 1109725,
+      "sha256": "b593d6057a8f4c1d7f870b7b1b034e12eb6cc3f28c440ca05c78cc6238312a92",
       "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.0/StreamCall-Endpoint-1.1.0-macOS-x86_64.dmg",
       "mirrors": {
         "gitee": "https://gitee.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.0/StreamCall-Endpoint-1.1.0-macOS-x86_64.dmg"
