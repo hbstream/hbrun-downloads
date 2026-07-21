@@ -12,11 +12,11 @@ This repository publishes release notes, checksums, and machine-readable indexes
 | --- | --- | --- |
 | HBRun StreamCore SDK | 1.3.3 | [streamcore-sdk-v1.3.3](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcore-sdk-v1.3.3) |
 | HBRun StreamGate | 1.5.2 | [streamgate-v1.5.2](https://github.com/hbstream/hbrun-downloads/releases/tag/streamgate-v1.5.2) |
-| HBRun StreamCall | 0.1.0 Alpha | [streamcall-v0.1.0-alpha](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcall-v0.1.0-alpha) |
+| HBRun StreamCall | 1.1.0 | [streamcall-v1.1.0](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcall-v1.1.0) |
 
 StreamCore SDK demo source and runnable demo packages are published separately in [hbstream/streamcore-sdk-demo](https://github.com/hbstream/streamcore-sdk-demo).
 
-Release assets are also mirrored on [Gitee](https://gitee.com/hbstream/hbrun-downloads/releases). StreamCall is an alpha Free Edition/signed-evaluation download channel; downloading it does not grant Starter, Integration, or OEM rights.
+Release assets are also mirrored on [Gitee](https://gitee.com/hbstream/hbrun-downloads/releases). StreamCall Server starts in Free Edition when no signed license is imported; downloading it does not grant Starter, Integration, or OEM rights.
 
 ### Official Links
 
@@ -37,7 +37,7 @@ Release assets are also mirrored on [Gitee](https://gitee.com/hbstream/hbrun-dow
 
 ### Verify a Download
 
-Compare the downloaded file with `SHA256SUMS.txt` attached to the release or the matching `checksums.txt` in this repository.
+Compare the downloaded file with the signed manifest and SHA-256 list in the matching version directory of this metadata repository.
 
 ```powershell
 Get-FileHash -Algorithm SHA256 .\StreamGate-1.5.2-windows-x64-standard-installer.exe
@@ -53,11 +53,11 @@ Get-FileHash -Algorithm SHA256 .\StreamGate-1.5.2-windows-x64-standard-installer
 | --- | --- | --- |
 | HBRun StreamCore SDK | 1.3.3 | [streamcore-sdk-v1.3.3](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcore-sdk-v1.3.3) |
 | HBRun StreamGate | 1.5.2 | [streamgate-v1.5.2](https://github.com/hbstream/hbrun-downloads/releases/tag/streamgate-v1.5.2) |
-| HBRun StreamCall | 0.1.0 Alpha | [streamcall-v0.1.0-alpha](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcall-v0.1.0-alpha) |
+| HBRun StreamCall | 1.1.0 | [streamcall-v1.1.0](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcall-v1.1.0) |
 
 StreamCore SDK 演示程序源码和可运行演示包在 [hbstream/streamcore-sdk-demo](https://github.com/hbstream/streamcore-sdk-demo) 单独发布。
 
-Release 附件同时镜像到 [Gitee](https://gitee.com/hbstream/hbrun-downloads/releases)。StreamCall 当前是 Alpha 版 Free Edition/签名评估授权下载渠道；下载文件不会授予 Starter、Integration 或 OEM 权利。
+Release 附件同时镜像到 [Gitee](https://gitee.com/hbstream/hbrun-downloads/releases)。StreamCall Server 在未导入签名授权时按免费版运行；下载文件不会授予 Starter、Integration 或 OEM 权利。
 
 ### 官方入口
 
@@ -78,7 +78,7 @@ Release 附件同时镜像到 [Gitee](https://gitee.com/hbstream/hbrun-downloads
 
 ### 校验下载文件
 
-下载后请使用 Release 附带的 `SHA256SUMS.txt` 或本仓库对应版本的 `checksums.txt` 校验文件完整性。
+下载后请使用本元数据仓库对应版本目录中的签名清单和 SHA-256 列表校验文件完整性。
 
 ```powershell
 Get-FileHash -Algorithm SHA256 .\StreamGate-1.5.2-windows-x64-standard-installer.exe
