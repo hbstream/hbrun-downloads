@@ -2,16 +2,16 @@
   "schema_version": 1,
   "product": "streamcall",
   "name": "StreamCall",
-  "version": "1.1.0",
-  "tag": "streamcall-v1.1.0",
-  "release_title": "StreamCall 1.1.0",
+  "version": "1.1.1",
+  "tag": "streamcall-v1.1.1",
+  "release_title": "StreamCall 1.1.1",
   "release_channel": "stable",
   "prerelease": false,
   "managed_release_asset_count": 5,
-  "release_url": "https://github.com/hbstream/hbrun-downloads/releases/tag/streamcall-v1.1.0",
-  "mirror_release_url": "https://gitee.com/hbstream/hbrun-downloads/releases/tag/streamcall-v1.1.0",
-  "release_notes": "streamcall/1.1.0/StreamCall-1.1.0-RELEASE-NOTES.md",
-  "checksum_file": "streamcall/1.1.0/StreamCall-1.1.0-SHA256SUMS.txt",
+  "release_url": "https://github.com/hbstream/hbrun-downloads/releases/tag/streamcall-v1.1.1",
+  "mirror_release_url": "https://gitee.com/hbstream/hbrun-downloads/releases/tag/streamcall-v1.1.1",
+  "release_notes": "streamcall/1.1.1/StreamCall-1.1.1-RELEASE-NOTES.md",
+  "checksum_file": "streamcall/1.1.1/StreamCall-1.1.1-SHA256SUMS.txt",
   "authorization": {
     "download_channel_ready": true,
     "public_self_serve_sale_ready": false,
@@ -36,29 +36,53 @@
     },
     "commercial_integration_oem_rights_separately_licensed": true
   },
+  "distribution_contract": {
+    "primary_release_host": "github",
+    "github_native_release_asset_count": 5,
+    "gitee_native_release_asset_count": 4,
+    "gitee_release_attachment_limit_bytes": 104857600,
+    "oversize_policy": "primary_host_exact_asset_fallback",
+    "split_archives": false
+  },
   "server_platform_contract": {
     "supported": [
       "linux-x86_64"
     ],
+    "deployment_model": "offline-docker-compose",
     "distribution_name_locked": false,
-    "validated_full_stack_baselines": [
+    "fully_validated_baselines": [
       "ubuntu-22.04-x86_64"
+    ],
+    "host_contract_baselines": [
+      "ubuntu-22.04-x86_64",
+      "debian-12-x86_64",
+      "rocky-linux-9-x86_64"
     ],
     "requirements": {
       "kernel_minimum": "4.18",
-      "systemd_minimum": 239,
-      "python_minimum": "3.8",
-      "recording": {
-        "docker_engine_minimum": "20.10",
-        "ffmpeg_minimum": "4.4",
-        "codecs": [
-          "h264",
-          "aac"
-        ],
-        "minimum_vcpu": 8,
-        "minimum_ram_gib": 8
-      }
+      "docker_engine_minimum": "20.10",
+      "docker_compose_minimum": "2.24",
+      "rootful_docker": true,
+      "minimum_logical_cpu": 8,
+      "minimum_ram_gib": 7.5,
+      "minimum_free_disk_gib": 12,
+      "storage_drivers": [
+        "overlayfs",
+        "overlay2",
+        "btrfs",
+        "zfs"
+      ]
     },
+    "host_packages_not_required": [
+      "streamcall",
+      "nginx",
+      "redis",
+      "livekit",
+      "egress",
+      "ffmpeg",
+      "ffprobe"
+    ],
+    "registry_access_required_at_install": false,
     "deferred": [
       "windows-x64"
     ],
@@ -83,14 +107,17 @@
     "android_apk_signing_ready": true,
     "apple_developer_id_ready": false,
     "apple_notarization_ready": false,
-    "manifest": "streamcall/1.1.0/StreamCall-1.1.0-public-downloads.manifest.json",
-    "signature": "streamcall/1.1.0/StreamCall-1.1.0-public-downloads.sig",
-    "public_key": "streamcall/1.1.0/StreamCall-1.1.0-public-downloads.pub.pem",
+    "manifest": "streamcall/1.1.1/StreamCall-1.1.1-public-downloads.manifest.json",
+    "signature": "streamcall/1.1.1/StreamCall-1.1.1-public-downloads.sig",
+    "public_key": "streamcall/1.1.1/StreamCall-1.1.1-public-downloads.pub.pem",
     "metadata_in_release_assets": false
   },
   "reproducibility": {
-    "source_date_epoch": 1784127993,
-    "exact_public_artifact_hashes_enforced": true
+    "source_date_epoch": 1784668032,
+    "android_source_date_epoch": 1784704150,
+    "container_complete_build_count": 2,
+    "container_byte_identical": true,
+    "signed_artifact_hashes_enforced": true
   },
   "packages": [
     {
@@ -98,20 +125,32 @@
       "platform": "linux-x86_64",
       "edition": "free_by_default_without_license",
       "role": "server",
-      "artifact_type": "linux-tar.gz",
-      "filename": "StreamCall-Server-1.1.0-Linux-x86_64.tar.gz",
-      "size": 29862893,
-      "sha256": "9eee87a82a5aa52d3b7fe721edce4ed83ed65013b335adb51ed727c24dde2eeb",
-      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.0/StreamCall-Server-1.1.0-Linux-x86_64.tar.gz",
-      "mirrors": {
-        "gitee": "https://gitee.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.0/StreamCall-Server-1.1.0-Linux-x86_64.tar.gz"
+      "artifact_type": "offline-docker-compose-tar.gz",
+      "filename": "StreamCall-Server-1.1.1-Linux-x86_64.tar.gz",
+      "size": 1626474470,
+      "sha256": "8faa1339cd36e5e32158b98719ae8b19909ff71aeeaaf905f1e82e18a374cb34",
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.1/StreamCall-Server-1.1.1-Linux-x86_64.tar.gz",
+      "mirrors": {},
+      "mirror_status": {
+        "gitee": "primary_host_exact_asset_fallback"
+      },
+      "mirror_fallbacks": {
+        "gitee": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.1/StreamCall-Server-1.1.1-Linux-x86_64.tar.gz"
       },
       "server_deployment_supported": true,
       "distribution_name_locked": false,
-      "validated_full_stack_baselines": [
+      "deployment_model": "offline-docker-compose",
+      "fully_validated_baselines": [
         "ubuntu-22.04-x86_64"
       ],
-      "host_preflight": "Check-Linux-Host.sh"
+      "host_contract_baselines": [
+        "ubuntu-22.04-x86_64",
+        "debian-12-x86_64",
+        "rocky-linux-9-x86_64"
+      ],
+      "host_registry_access_required_at_install": false,
+      "host_ffmpeg_required": false,
+      "host_ffprobe_required": false
     },
     {
       "id": "windows_endpoint_x86_64",
@@ -119,13 +158,17 @@
       "edition": "first_party",
       "role": "endpoint_only",
       "artifact_type": "windows-installer",
-      "filename": "StreamCall-Endpoint-1.1.0-Windows-x86_64-Setup.exe",
-      "size": 66008341,
-      "sha256": "2df048d4b571a6539c94e7723bad8629f4dcde645daf090bbe851f28d02694ac",
-      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.0/StreamCall-Endpoint-1.1.0-Windows-x86_64-Setup.exe",
+      "filename": "StreamCall-Endpoint-1.1.1-Windows-x86_64-Setup.exe",
+      "size": 66014796,
+      "sha256": "0263b5212298168857880cd8c35aa48379956e08db10dbc015970bd1fcf9e0fa",
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.1/StreamCall-Endpoint-1.1.1-Windows-x86_64-Setup.exe",
       "mirrors": {
-        "gitee": "https://gitee.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.0/StreamCall-Endpoint-1.1.0-Windows-x86_64-Setup.exe"
+        "gitee": "https://gitee.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.1/StreamCall-Endpoint-1.1.1-Windows-x86_64-Setup.exe"
       },
+      "mirror_status": {
+        "gitee": "native_release_asset"
+      },
+      "mirror_fallbacks": {},
       "server_deployment_supported": false
     },
     {
@@ -134,13 +177,17 @@
       "edition": "first_party",
       "role": "endpoint_only",
       "artifact_type": "appimage",
-      "filename": "StreamCall-Endpoint-1.1.0-Linux-x86_64.AppImage",
+      "filename": "StreamCall-Endpoint-1.1.1-Linux-x86_64.AppImage",
       "size": 55921144,
-      "sha256": "dc1ed131005f1259dd8e9324bdf619a7ff3001c0266befeadf3bc4dbb82d9c90",
-      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.0/StreamCall-Endpoint-1.1.0-Linux-x86_64.AppImage",
+      "sha256": "d5e4cf4206863d1f0775528edc4943b05204efb9526b6f7aadfdcc5980be4a0a",
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.1/StreamCall-Endpoint-1.1.1-Linux-x86_64.AppImage",
       "mirrors": {
-        "gitee": "https://gitee.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.0/StreamCall-Endpoint-1.1.0-Linux-x86_64.AppImage"
+        "gitee": "https://gitee.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.1/StreamCall-Endpoint-1.1.1-Linux-x86_64.AppImage"
       },
+      "mirror_status": {
+        "gitee": "native_release_asset"
+      },
+      "mirror_fallbacks": {},
       "server_deployment_supported": false
     },
     {
@@ -149,13 +196,17 @@
       "edition": "first_party",
       "role": "endpoint_only",
       "artifact_type": "apk",
-      "filename": "StreamCall-Endpoint-1.1.0-Android-arm64-v8a.apk",
+      "filename": "StreamCall-Endpoint-1.1.1-Android-arm64-v8a.apk",
       "size": 16400837,
-      "sha256": "a369019377bdf1933eec24d89384a8303a268da729dba02f93035d38d7ff7dca",
-      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.0/StreamCall-Endpoint-1.1.0-Android-arm64-v8a.apk",
+      "sha256": "d2036d98f526e8f6fdb2f05a23977cd3f557c530b2870a40f9cbf31c88eadf37",
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.1/StreamCall-Endpoint-1.1.1-Android-arm64-v8a.apk",
       "mirrors": {
-        "gitee": "https://gitee.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.0/StreamCall-Endpoint-1.1.0-Android-arm64-v8a.apk"
+        "gitee": "https://gitee.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.1/StreamCall-Endpoint-1.1.1-Android-arm64-v8a.apk"
       },
+      "mirror_status": {
+        "gitee": "native_release_asset"
+      },
+      "mirror_fallbacks": {},
       "server_deployment_supported": false
     },
     {
@@ -164,13 +215,17 @@
       "edition": "first_party",
       "role": "endpoint_only",
       "artifact_type": "dmg",
-      "filename": "StreamCall-Endpoint-1.1.0-macOS-x86_64.dmg",
-      "size": 1109725,
-      "sha256": "b593d6057a8f4c1d7f870b7b1b034e12eb6cc3f28c440ca05c78cc6238312a92",
-      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.0/StreamCall-Endpoint-1.1.0-macOS-x86_64.dmg",
+      "filename": "StreamCall-Endpoint-1.1.1-macOS-x86_64.dmg",
+      "size": 1109696,
+      "sha256": "4e953d2a2913aafd4cc2e42273b9b5204f2ef8c699e870fd336024a778f3df64",
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.1/StreamCall-Endpoint-1.1.1-macOS-x86_64.dmg",
       "mirrors": {
-        "gitee": "https://gitee.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.0/StreamCall-Endpoint-1.1.0-macOS-x86_64.dmg"
+        "gitee": "https://gitee.com/hbstream/hbrun-downloads/releases/download/streamcall-v1.1.1/StreamCall-Endpoint-1.1.1-macOS-x86_64.dmg"
       },
+      "mirror_status": {
+        "gitee": "native_release_asset"
+      },
+      "mirror_fallbacks": {},
       "server_deployment_supported": false,
       "direct_download_preview": true,
       "developer_id_signed": false,

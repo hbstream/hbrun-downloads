@@ -12,11 +12,11 @@ This repository publishes release notes, checksums, and machine-readable indexes
 | --- | --- | --- |
 | HBRun StreamCore SDK | 1.3.3 | [streamcore-sdk-v1.3.3](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcore-sdk-v1.3.3) |
 | HBRun StreamGate | 1.5.2 | [streamgate-v1.5.2](https://github.com/hbstream/hbrun-downloads/releases/tag/streamgate-v1.5.2) |
-| HBRun StreamCall | 1.1.0 | [streamcall-v1.1.0](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcall-v1.1.0) |
+| HBRun StreamCall | 1.1.1 | [streamcall-v1.1.1](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcall-v1.1.1) |
 
 StreamCore SDK demo source and runnable demo packages are published separately in [hbstream/streamcore-sdk-demo](https://github.com/hbstream/streamcore-sdk-demo).
 
-Release assets are also mirrored on [Gitee](https://gitee.com/hbstream/hbrun-downloads/releases). StreamCall Server starts in Free Edition when no signed license is imported; downloading it does not grant Starter, Integration, or OEM rights.
+Release assets are also mirrored on [Gitee](https://gitee.com/hbstream/hbrun-downloads/releases). Gitee natively carries the four StreamCall endpoint packages; its StreamCall release page links the exact GitHub server package because that offline archive exceeds Gitee's per-attachment limit. StreamCall Server starts in Free Edition when no signed license is imported; downloading it does not grant Starter, Integration, or OEM rights.
 
 ### Official Links
 
@@ -53,11 +53,11 @@ Get-FileHash -Algorithm SHA256 .\StreamGate-1.5.2-windows-x64-standard-installer
 | --- | --- | --- |
 | HBRun StreamCore SDK | 1.3.3 | [streamcore-sdk-v1.3.3](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcore-sdk-v1.3.3) |
 | HBRun StreamGate | 1.5.2 | [streamgate-v1.5.2](https://github.com/hbstream/hbrun-downloads/releases/tag/streamgate-v1.5.2) |
-| HBRun StreamCall | 1.1.0 | [streamcall-v1.1.0](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcall-v1.1.0) |
+| HBRun StreamCall | 1.1.1 | [streamcall-v1.1.1](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcall-v1.1.1) |
 
 StreamCore SDK 演示程序源码和可运行演示包在 [hbstream/streamcore-sdk-demo](https://github.com/hbstream/streamcore-sdk-demo) 单独发布。
 
-Release 附件同时镜像到 [Gitee](https://gitee.com/hbstream/hbrun-downloads/releases)。StreamCall Server 在未导入签名授权时按免费版运行；下载文件不会授予 Starter、Integration 或 OEM 权利。
+Release 附件同时镜像到 [Gitee](https://gitee.com/hbstream/hbrun-downloads/releases)。Gitee 原生提供四个 StreamCall 终端包；离线服务端包超过其单附件限制，因此 Gitee 的 StreamCall 发布页链接同一个 GitHub 精确服务端包。StreamCall Server 在未导入签名授权时按免费版运行；下载文件不会授予 Starter、Integration 或 OEM 权利。
 
 ### 官方入口
 
