@@ -3,7 +3,7 @@
 d5e4cf4206863d1f0775528edc4943b05204efb9526b6f7aadfdcc5980be4a0a  StreamCall-Endpoint-1.1.1-Linux-x86_64.AppImage
 d2036d98f526e8f6fdb2f05a23977cd3f557c530b2870a40f9cbf31c88eadf37  StreamCall-Endpoint-1.1.1-Android-arm64-v8a.apk
 4e953d2a2913aafd4cc2e42273b9b5204f2ef8c699e870fd336024a778f3df64  StreamCall-Endpoint-1.1.1-macOS-x86_64.dmg
-d41321e7c60743ecc274c66d12b97b59a5412a8fc5406f1413aa0e60b8438d74  StreamCall-1.1.1-public-downloads.manifest.json
-6d424ad4afe6c524141f4e29c4cbb7b15df8a85a09b42e46b486a78e25fde0cb  StreamCall-1.1.1-public-downloads.sig
+0fa734026f0967759cefcd86721a637d00f91b0c5fae02f75c5085aff37d27d3  StreamCall-1.1.1-public-downloads.manifest.json
+e4989071ff0675b58bc746f0c438399caa1261d35f99039dde51c1be00d3ec90  StreamCall-1.1.1-public-downloads.sig
 b3975fa40e2af2f5d41163a373f5e8a20223db1e36e214efb4084f71e032b593  StreamCall-1.1.1-public-downloads.pub.pem
-dad5b30b34121fc84c2dd87dd61aeb66317590fdf0dd1b741539b8e60eb4bd47  StreamCall-1.1.1-RELEASE-NOTES.md
+138b3e8fa4d1cc405e077eea1e5b1c982b9ba1f854ef590858efb5dd86424fbe  StreamCall-1.1.1-RELEASE-NOTES.md
