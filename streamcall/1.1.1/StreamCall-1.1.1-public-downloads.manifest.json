@@ -1,9 +1,13 @@
 {
-  "schema": 3,
+  "schema": 4,
   "product": "StreamCall",
   "version": "1.1.1",
+  "component_versions": {
+    "server": "1.1.1",
+    "endpoint": "1.1.1"
+  },
   "tag": "streamcall-v1.1.1",
-  "release_title": "StreamCall 1.1.1",
+  "release_title": "StreamCall Server 1.1.1 / Endpoint 1.1.1",
   "release_channel": "stable",
   "prerelease": false,
   "download_channel_ready": true,
