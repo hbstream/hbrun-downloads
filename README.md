@@ -10,7 +10,7 @@ This repository publishes release notes, checksums, and machine-readable indexes
 
 | Product | Version | Release |
 | --- | --- | --- |
-| HBRun StreamCore SDK | 1.3.3 | [streamcore-sdk-v1.3.3](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcore-sdk-v1.3.3) |
+| HBRun StreamCore SDK | 1.4.0 | [streamcore-sdk-v1.4.0](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcore-sdk-v1.4.0) |
 | HBRun StreamGate | 1.5.2 | [streamgate-v1.5.2](https://github.com/hbstream/hbrun-downloads/releases/tag/streamgate-v1.5.2) |
 | HBRun StreamCall | 1.1.1 | [streamcall-v1.1.1](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcall-v1.1.1) |
 
@@ -51,7 +51,7 @@ Get-FileHash -Algorithm SHA256 .\StreamGate-1.5.2-windows-x64-standard-installer
 
 | 产品 | 版本 | 发布页 |
 | --- | --- | --- |
-| HBRun StreamCore SDK | 1.3.3 | [streamcore-sdk-v1.3.3](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcore-sdk-v1.3.3) |
+| HBRun StreamCore SDK | 1.4.0 | [streamcore-sdk-v1.4.0](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcore-sdk-v1.4.0) |
 | HBRun StreamGate | 1.5.2 | [streamgate-v1.5.2](https://github.com/hbstream/hbrun-downloads/releases/tag/streamgate-v1.5.2) |
 | HBRun StreamCall | 1.1.1 | [streamcall-v1.1.1](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcall-v1.1.1) |
 
