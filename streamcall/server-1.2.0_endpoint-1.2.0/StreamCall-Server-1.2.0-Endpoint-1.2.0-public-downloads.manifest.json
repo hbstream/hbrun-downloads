@@ -1,0 +1,349 @@
+{
+  "schema": 5,
+  "product": "StreamCall",
+  "release_set_id": "server-1.2.0_endpoint-1.2.0",
+  "component_versions": {
+    "server": "1.2.0",
+    "endpoint": "1.2.0"
+  },
+  "tag": "streamcall-server-v1.2.0-endpoint-v1.2.0",
+  "release_title": "StreamCall Server 1.2.0 / Endpoint 1.2.0",
+  "release_channel": "stable",
+  "prerelease": false,
+  "download_channel_ready": true,
+  "public_self_serve_sale_ready": false,
+  "managed_release_asset_count": 5,
+  "distribution_contract": {
+    "primary_release_host": "github",
+    "github_native_release_asset_count": 5,
+    "gitee_native_release_asset_count": 5,
+    "exact_asset_identity_required_on_each_host": true,
+    "cross_host_fallbacks": false,
+    "oversize_policy": "fail_closed_exact_asset_required",
+    "split_archives": false
+  },
+  "authorization": {
+    "license_granted_by_download": false,
+    "free_edition": {
+      "license_file_required": false,
+      "max_sites": 1,
+      "max_endpoints": 4,
+      "max_dispatchers": 1,
+      "max_cameras": 2,
+      "max_concurrent_calls": 1,
+      "first_party_clients_only": true,
+      "customer_integration_api_sdk": false,
+      "streamgate_bridge": false,
+      "oem_redistribution": false
+    },
+    "evaluation": {
+      "separately_issued_signed_license_required": true,
+      "duration_days": 30,
+      "non_commercial": true,
+      "app_or_package_binding_required_for_integration": true
+    },
+    "commercial_integration_oem_rights_separately_licensed": true
+  },
+  "server_platform_contract": {
+    "supported": [
+      "linux-x86_64"
+    ],
+    "deployment_model": "offline-docker-compose",
+    "distribution_name_locked": false,
+    "fully_validated_baselines": [
+      "ubuntu-22.04-x86_64"
+    ],
+    "host_contract_baselines": [
+      "ubuntu-22.04-x86_64",
+      "debian-12-x86_64",
+      "rocky-linux-9-x86_64"
+    ],
+    "requirements": {
+      "kernel_minimum": "4.18",
+      "docker_engine_minimum": "20.10",
+      "docker_compose_minimum": "2.24",
+      "rootful_docker": true,
+      "minimum_logical_cpu": 8,
+      "minimum_ram_gib": 7.5,
+      "minimum_free_disk_gib": 12,
+      "storage_drivers": [
+        "overlayfs",
+        "overlay2",
+        "btrfs",
+        "zfs"
+      ]
+    },
+    "host_packages_not_required": [
+      "streamcall",
+      "nginx",
+      "redis",
+      "livekit",
+      "egress",
+      "ffmpeg",
+      "ffprobe"
+    ],
+    "registry_access_required_at_install": false,
+    "deferred": [
+      "windows-x64"
+    ],
+    "endpoint_packages_are_not_servers": true
+  },
+  "endpoint_platform_contract": {
+    "downloadable": [
+      "windows-x86_64",
+      "linux-x86_64",
+      "android-arm64-v8a",
+      "macos-x86_64"
+    ],
+    "macos_direct_download_preview": true
+  },
+  "trust": {
+    "algorithm": "Ed25519",
+    "signature_payload": "canonical_json_without_locator_fields_v1",
+    "public_key_spki_sha256": "b35858ffe8d5520210b2ea6aa9627cdf90f91c8d7b20452585062e3f77816573",
+    "public_key_fingerprint_published": true,
+    "public_download_integrity_ready": true,
+    "windows_authenticode_ready": false,
+    "android_apk_signing_ready": true,
+    "apple_developer_id_ready": false,
+    "apple_notarization_ready": false
+  },
+  "reproducibility": {
+    "source_date_epoch": 1785256771,
+    "android_source_date_epoch": 1785334269,
+    "container_complete_build_count": 2,
+    "container_byte_identical": true,
+    "signed_artifact_hashes_enforced": true
+  },
+  "accepted_runtime_lineage": {
+    "release_acceptance_decision": "container_release_acceptance=passed",
+    "source_commit": "c250600daf24401f3e3e5d44cd5cc069a59c3cea",
+    "endpoint_source_commit": "a8d5da6bfe195b8cb6172d46e0d1c3eab7c913ad",
+    "endpoint_source_date_epoch": 1785334269,
+    "endpoint_sdk_source_commit": "a8d5da6bfe195b8cb6172d46e0d1c3eab7c913ad",
+    "server_archive_sha256": "3b42f5adefc8717f28801c82b0513428a94b6190904cef7cb9a1878d36190013",
+    "server_image_id": "sha256:63d14aa05fe34ab79ac10c34eebd46889a524b1624c816765f50477b0b647cfd",
+    "offline_bundle_sha256": "204c739f0e6d1c097abf7ee5e3fd8d8cba44b0c8b260b2422c3534bc5faa086b",
+    "windows_endpoint_archive_sha256": "18cf08e0d741fdedff8bb94dc50b06cf238a7f3a4f8965a7d4cb05ef6862d6cf",
+    "windows_endpoint_executable_sha256": "71f2bda4e8704617fd5d1c83da0aacaf53ecb09e04fe7cb7a9ed506c5bc0e65f",
+    "linux_endpoint_archive_sha256": "5547fdd20c4485ba03fc380097d4d5116fefa929418572bf076e21316f97d8e3",
+    "linux_endpoint_executable_sha256": "3a15f7a6d5bef5c510f3b5b50c1f521dc7140a5b4ad819cd215754bbb89912a9",
+    "android_endpoint_source_commit": "a8d5da6bfe195b8cb6172d46e0d1c3eab7c913ad",
+    "android_endpoint_source_date_epoch": 1785334269,
+    "android_endpoint_candidate_source_commit": "a8d5da6bfe195b8cb6172d46e0d1c3eab7c913ad",
+    "android_endpoint_source_delta_sha256": "e2b1e58eff36f125d23bdf12e8ea315a9c9d301fdb70e3946d8ee54679c03127",
+    "macos_preview_dmg_sha256": "4f60ca18b61ad8bae87557b843351388cc24a0c021ee554fa58997e8fe8042b9"
+  },
+  "artifacts": [
+    {
+      "id": "linux_server_x86_64",
+      "filename": "StreamCall-Server-1.2.0-Linux-x86_64.tar.gz",
+      "bytes": 1627077722,
+      "sha256": "3b42f5adefc8717f28801c82b0513428a94b6190904cef7cb9a1878d36190013",
+      "download_urls": {
+        "github": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-server-v1.2.0-endpoint-v1.2.0/StreamCall-Server-1.2.0-Linux-x86_64.tar.gz",
+        "gitee": "https://gitee.com/hbstream/streamcall-downloads/releases/download/streamcall-server-v1.2.0-endpoint-v1.2.0/StreamCall-Server-1.2.0-Linux-x86_64.tar.gz"
+      },
+      "distribution": {
+        "primary_host": "github",
+        "gitee": {
+          "status": "native_release_asset",
+          "native_release_asset": true,
+          "exact_identity_required": true,
+          "fallback_url": null
+        }
+      },
+      "role": "server",
+      "platform": "linux-x86_64",
+      "artifact_type": "offline-docker-compose-tar.gz",
+      "server_deployment_supported": true,
+      "deployment_model": "offline-docker-compose",
+      "distribution_name_locked": false,
+      "fully_validated_baselines": [
+        "ubuntu-22.04-x86_64"
+      ],
+      "host_contract_baselines": [
+        "ubuntu-22.04-x86_64",
+        "debian-12-x86_64",
+        "rocky-linux-9-x86_64"
+      ],
+      "default_unlicensed_edition": "free",
+      "source_commit": "c250600daf24401f3e3e5d44cd5cc069a59c3cea",
+      "server_image_id": "sha256:63d14aa05fe34ab79ac10c34eebd46889a524b1624c816765f50477b0b647cfd",
+      "image_ids": {
+        "egress": "sha256:980ff439431df2c773573721ab6da19e15bdc1f049ab7cb80e87470bf174c12f",
+        "gateway": "sha256:30f1c0d78e0ad60901648be663a710bdadf19e4c10ac6782c235200619158284",
+        "media": "sha256:2c6869d2d5ff6c9c0166f47be1c92dad6928bfecfa5e4060a6ece48db8accfa3",
+        "redis": "sha256:dfa18828cbc07b3ae6a95ec7343f6c214fdee2d836197b4be8e9904420762cd8",
+        "server": "sha256:63d14aa05fe34ab79ac10c34eebd46889a524b1624c816765f50477b0b647cfd"
+      },
+      "image_count": 5,
+      "offline_bundle_sha256": "204c739f0e6d1c097abf7ee5e3fd8d8cba44b0c8b260b2422c3534bc5faa086b",
+      "host_registry_access_required_at_install": false,
+      "host_ffmpeg_required": false,
+      "host_ffprobe_required": false,
+      "host_systemd_units_installed": false,
+      "first_party_web_runtime_modules_included": true,
+      "customer_integration_sdk_package_included": false,
+      "buyer_license_included": false
+    },
+    {
+      "id": "windows_endpoint_x86_64",
+      "filename": "StreamCall-Endpoint-1.2.0-Windows-x86_64-Setup.exe",
+      "bytes": 67316894,
+      "sha256": "95bdc2bd2d227b8ab3c8abc5909b063c89772a6bb85c5f54066eb70bbbfbbeb7",
+      "download_urls": {
+        "github": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-server-v1.2.0-endpoint-v1.2.0/StreamCall-Endpoint-1.2.0-Windows-x86_64-Setup.exe",
+        "gitee": "https://gitee.com/hbstream/streamcall-downloads/releases/download/streamcall-server-v1.2.0-endpoint-v1.2.0/StreamCall-Endpoint-1.2.0-Windows-x86_64-Setup.exe"
+      },
+      "distribution": {
+        "primary_host": "github",
+        "gitee": {
+          "status": "native_release_asset",
+          "native_release_asset": true,
+          "exact_identity_required": true,
+          "fallback_url": null
+        }
+      },
+      "role": "endpoint",
+      "platform": "windows-x86_64",
+      "artifact_type": "windows-installer",
+      "server_deployment_supported": false,
+      "source_commit": "a8d5da6bfe195b8cb6172d46e0d1c3eab7c913ad",
+      "source_date_epoch": 1785334269,
+      "application_version": "1.2.0",
+      "source_endpoint_archive_sha256": "18cf08e0d741fdedff8bb94dc50b06cf238a7f3a4f8965a7d4cb05ef6862d6cf",
+      "installed_endpoint_sha256": "71f2bda4e8704617fd5d1c83da0aacaf53ecb09e04fe7cb7a9ed506c5bc0e65f",
+      "accepted_component_reused": true,
+      "source_reproducibility_verified": true,
+      "silent_install_verified": true,
+      "silent_uninstall_verified": true,
+      "authenticode_signed": false
+    },
+    {
+      "id": "linux_endpoint_x86_64",
+      "filename": "StreamCall-Endpoint-1.2.0-Linux-x86_64.AppImage",
+      "bytes": 62499320,
+      "sha256": "2bc669865ad25c1371f55d8a96c599b0398e9fbc0c75500dc6cbe713e09ebf05",
+      "download_urls": {
+        "github": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-server-v1.2.0-endpoint-v1.2.0/StreamCall-Endpoint-1.2.0-Linux-x86_64.AppImage",
+        "gitee": "https://gitee.com/hbstream/streamcall-downloads/releases/download/streamcall-server-v1.2.0-endpoint-v1.2.0/StreamCall-Endpoint-1.2.0-Linux-x86_64.AppImage"
+      },
+      "distribution": {
+        "primary_host": "github",
+        "gitee": {
+          "status": "native_release_asset",
+          "native_release_asset": true,
+          "exact_identity_required": true,
+          "fallback_url": null
+        }
+      },
+      "role": "endpoint",
+      "platform": "linux-x86_64",
+      "artifact_type": "appimage",
+      "server_deployment_supported": false,
+      "source_commit": "a8d5da6bfe195b8cb6172d46e0d1c3eab7c913ad",
+      "application_version": "1.2.0",
+      "accepted_source_endpoint_archive_sha256": "5547fdd20c4485ba03fc380097d4d5116fefa929418572bf076e21316f97d8e3",
+      "packaging_source_archive_sha256": "5547fdd20c4485ba03fc380097d4d5116fefa929418572bf076e21316f97d8e3",
+      "source_endpoint_tree_sha256": "3cde718e97f8631f655bb52f18a719ce0f5a78ae4869917e65d2245877b4e9bd",
+      "content_equivalent_to_accepted_archive": true,
+      "accepted_component_reused": true,
+      "source_endpoint_sha256": "3a15f7a6d5bef5c510f3b5b50c1f521dc7140a5b4ad819cd215754bbb89912a9",
+      "staged_endpoint_sha256": "3a15f7a6d5bef5c510f3b5b50c1f521dc7140a5b4ad819cd215754bbb89912a9",
+      "source_endpoint_staged_unchanged": true,
+      "embedded_endpoint_sha256": "6017ad8d585fbe50093af42b5c74f1166a09713efbcdba07fb5c57b3f9e9b1ff",
+      "source_text_sha256": "eeb6b1177758b144317a21306053dc5e79d0035e008a5ab5b605e4cf5a44f599",
+      "embedded_text_sha256": "eeb6b1177758b144317a21306053dc5e79d0035e008a5ab5b605e4cf5a44f599",
+      "source_rodata_sha256": "23391bd06980b0445149112376387a5883dbaa35d1fb7e942a5ee471d7a0d1eb",
+      "embedded_rodata_sha256": "23391bd06980b0445149112376387a5883dbaa35d1fb7e942a5ee471d7a0d1eb",
+      "runtime_code_unchanged": true,
+      "appstream_metadata_packaged": true,
+      "appimagetool_sha256": "a6d71e2b6cd66f8e8d16c37ad164658985e0cf5fcaa950c90a482890cb9d13e0",
+      "appimage_runtime_sha256": "1cc49bcf1e2ccd593c379adb17c9f85a36d619088296504de95b1d06215aebbf",
+      "source_date_epoch": 1785334269,
+      "desktop_session_launch_attempted": true
+    },
+    {
+      "id": "android_endpoint_arm",
+      "filename": "StreamCall-Endpoint-1.2.0-Android-arm.apk",
+      "bytes": 23257747,
+      "sha256": "59c7cda616ff048d6dac69533851bfefba48d2e5383da3e992154c98a72f9fbe",
+      "download_urls": {
+        "github": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-server-v1.2.0-endpoint-v1.2.0/StreamCall-Endpoint-1.2.0-Android-arm.apk",
+        "gitee": "https://gitee.com/hbstream/streamcall-downloads/releases/download/streamcall-server-v1.2.0-endpoint-v1.2.0/StreamCall-Endpoint-1.2.0-Android-arm.apk"
+      },
+      "distribution": {
+        "primary_host": "github",
+        "gitee": {
+          "status": "native_release_asset",
+          "native_release_asset": true,
+          "exact_identity_required": true,
+          "fallback_url": null
+        }
+      },
+      "role": "endpoint",
+      "platform": "android-arm",
+      "artifact_type": "apk",
+      "server_deployment_supported": false,
+      "application_id": "com.hbrun.streamcall.endpoint",
+      "version_code": 10200,
+      "source_commit": "a8d5da6bfe195b8cb6172d46e0d1c3eab7c913ad",
+      "source_date_epoch": 1785334269,
+      "candidate_source_commit": "a8d5da6bfe195b8cb6172d46e0d1c3eab7c913ad",
+      "source_delta_contract": "none",
+      "source_delta_files": [],
+      "source_delta_sha256": "e2b1e58eff36f125d23bdf12e8ea315a9c9d301fdb70e3946d8ee54679c03127",
+      "launchable_activity": "com.streamcall.sdk.sample.MainActivity",
+      "launchable_activity_class_verified": true,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "launcher_icon_packaged": true,
+      "apk_signature_verified": true,
+      "signer_certificate_sha256": "9e973d2c9f0ec6478313b4c1739c985ef096209a248dc812f85380bf6f6d06ff",
+      "app_store_distribution_ready": false,
+      "sdk_or_aar_included": false
+    },
+    {
+      "id": "macos_endpoint_x86_64",
+      "filename": "StreamCall-Endpoint-1.2.0-macOS-x86_64.dmg",
+      "bytes": 1058447,
+      "sha256": "4f60ca18b61ad8bae87557b843351388cc24a0c021ee554fa58997e8fe8042b9",
+      "download_urls": {
+        "github": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-server-v1.2.0-endpoint-v1.2.0/StreamCall-Endpoint-1.2.0-macOS-x86_64.dmg",
+        "gitee": "https://gitee.com/hbstream/streamcall-downloads/releases/download/streamcall-server-v1.2.0-endpoint-v1.2.0/StreamCall-Endpoint-1.2.0-macOS-x86_64.dmg"
+      },
+      "distribution": {
+        "primary_host": "github",
+        "gitee": {
+          "status": "native_release_asset",
+          "native_release_asset": true,
+          "exact_identity_required": true,
+          "fallback_url": null
+        }
+      },
+      "role": "endpoint",
+      "platform": "macos-x86_64",
+      "artifact_type": "dmg",
+      "server_deployment_supported": false,
+      "direct_download_preview": true,
+      "developer_id_signed": false,
+      "notarized": false,
+      "apple_public_distribution_ready": false,
+      "accepted_exact_input": true,
+      "runtime_tested_exact_package": true,
+      "package_executable_sha256": "51a61d7bb812301a73e81f379523da0b67144f23d2fca0979a77769f36e3554b",
+      "source_commit": "a8d5da6bfe195b8cb6172d46e0d1c3eab7c913ad",
+      "source_date_epoch": 1785334269,
+      "application_version": "1.2.0",
+      "source_dmg_sha256": "4f60ca18b61ad8bae87557b843351388cc24a0c021ee554fa58997e8fe8042b9",
+      "media_route": "web_js_sdk"
+    }
+  ],
+  "signature_file": "StreamCall-Server-1.2.0-Endpoint-1.2.0-public-downloads.sig",
+  "public_key_file": "StreamCall-Server-1.2.0-Endpoint-1.2.0-public-downloads.pub.pem",
+  "checksum_file": "StreamCall-Server-1.2.0-Endpoint-1.2.0-SHA256SUMS.txt",
+  "release_notes_file": "StreamCall-Server-1.2.0-Endpoint-1.2.0-RELEASE-NOTES.md"
+}

@@ -1,0 +1,9 @@
+3b42f5adefc8717f28801c82b0513428a94b6190904cef7cb9a1878d36190013  StreamCall-Server-1.2.0-Linux-x86_64.tar.gz
+95bdc2bd2d227b8ab3c8abc5909b063c89772a6bb85c5f54066eb70bbbfbbeb7  StreamCall-Endpoint-1.2.0-Windows-x86_64-Setup.exe
+2bc669865ad25c1371f55d8a96c599b0398e9fbc0c75500dc6cbe713e09ebf05  StreamCall-Endpoint-1.2.0-Linux-x86_64.AppImage
+59c7cda616ff048d6dac69533851bfefba48d2e5383da3e992154c98a72f9fbe  StreamCall-Endpoint-1.2.0-Android-arm.apk
+4f60ca18b61ad8bae87557b843351388cc24a0c021ee554fa58997e8fe8042b9  StreamCall-Endpoint-1.2.0-macOS-x86_64.dmg
+e33656a83d0bbb0c561941ec6361a2e0542def36245f1c3e584e8e9126bea9f2  StreamCall-Server-1.2.0-Endpoint-1.2.0-public-downloads.manifest.json
+bc1ec5dbf1f89242109e001184eab27cbaa63e32ca7937d99a26d5cbbc7bacc0  StreamCall-Server-1.2.0-Endpoint-1.2.0-public-downloads.sig
+b3975fa40e2af2f5d41163a373f5e8a20223db1e36e214efb4084f71e032b593  StreamCall-Server-1.2.0-Endpoint-1.2.0-public-downloads.pub.pem
+84f3e061bea249ec62b1520d467ce3336841cce491cd9cd4afb6fb7322094bb0  StreamCall-Server-1.2.0-Endpoint-1.2.0-RELEASE-NOTES.md
