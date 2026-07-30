@@ -13,15 +13,6 @@
   "download_channel_ready": true,
   "public_self_serve_sale_ready": false,
   "managed_release_asset_count": 5,
-  "distribution_contract": {
-    "primary_release_host": "github",
-    "github_native_release_asset_count": 5,
-    "gitee_native_release_asset_count": 5,
-    "exact_asset_identity_required_on_each_host": true,
-    "cross_host_fallbacks": false,
-    "oversize_policy": "fail_closed_exact_asset_required",
-    "split_archives": false
-  },
   "authorization": {
     "license_granted_by_download": false,
     "free_edition": {
@@ -134,6 +125,18 @@
     "android_endpoint_source_delta_sha256": "e2b1e58eff36f125d23bdf12e8ea315a9c9d301fdb70e3946d8ee54679c03127",
     "macos_preview_dmg_sha256": "4f60ca18b61ad8bae87557b843351388cc24a0c021ee554fa58997e8fe8042b9"
   },
+  "distribution_contract": {
+    "primary_release_host": "github",
+    "github_native_release_asset_count": 5,
+    "gitee_native_release_asset_count": 4,
+    "gitee_endpoint_asset_count": 4,
+    "gitee_server_asset_count": 0,
+    "server_distribution": "github_only",
+    "exact_asset_identity_required_on_each_host": true,
+    "cross_host_fallbacks": false,
+    "oversize_policy": "server_github_only_no_gitee_upload",
+    "split_archives": false
+  },
   "artifacts": [
     {
       "id": "linux_server_x86_64",
@@ -142,14 +145,14 @@
       "sha256": "3b42f5adefc8717f28801c82b0513428a94b6190904cef7cb9a1878d36190013",
       "download_urls": {
         "github": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-server-v1.2.0-endpoint-v1.2.0/StreamCall-Server-1.2.0-Linux-x86_64.tar.gz",
-        "gitee": "https://gitee.com/hbstream/streamcall-downloads/releases/download/streamcall-server-v1.2.0-endpoint-v1.2.0/StreamCall-Server-1.2.0-Linux-x86_64.tar.gz"
+        "gitee": null
       },
       "distribution": {
         "primary_host": "github",
         "gitee": {
-          "status": "native_release_asset",
-          "native_release_asset": true,
-          "exact_identity_required": true,
+          "status": "not_distributed_server_github_only",
+          "native_release_asset": false,
+          "exact_identity_required": false,
           "fallback_url": null
         }
       },
