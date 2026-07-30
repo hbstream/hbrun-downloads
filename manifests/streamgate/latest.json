@@ -1,84 +1,275 @@
 {
-  "schema_version": 1,
-  "product": "streamgate",
-  "name": "StreamGate",
-  "version": "1.5.2",
-  "release_channel": "stable",
-  "release_url": "https://github.com/hbstream/hbrun-downloads/releases/tag/streamgate-v1.5.2",
-  "release_notes": "streamgate/1.5.2/release-notes.md",
-  "checksum_file": "streamgate/1.5.2/checksums.txt",
-  "packages": [
-    {
-      "platform": "windows_x86_64",
-      "edition": "standard",
-      "artifact_type": "installer",
-      "filename": "StreamGate-1.5.2-windows-x64-standard-installer.exe",
-      "size": 53092868,
-      "sha256": "a6fa229acdd2702ed02bd2e4e86a862f135565e788bb1df8be41433bf84c723b",
-      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamgate-v1.5.2/StreamGate-1.5.2-windows-x64-standard-installer.exe"
-    },
-    {
-      "platform": "windows_x86_64",
-      "edition": "standard",
-      "artifact_type": "zip",
-      "filename": "StreamGate-1.5.2-windows-x64-standard.zip",
-      "size": 63998912,
-      "sha256": "c2e08adddf7c1f2ee3b387cf18202605ab8738ba28ce1130618c9616af2490ab",
-      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamgate-v1.5.2/StreamGate-1.5.2-windows-x64-standard.zip"
-    },
-    {
-      "platform": "windows_x86_64",
-      "edition": "professional",
-      "artifact_type": "installer",
-      "filename": "StreamGate-1.5.2-windows-x64-professional-installer.exe",
-      "size": 129216499,
-      "sha256": "5954ac6c250f42dafe3e6061a0969028e1961dd0d874674c67afd04a1bd38cc1",
-      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamgate-v1.5.2/StreamGate-1.5.2-windows-x64-professional-installer.exe"
-    },
-    {
-      "platform": "windows_x86_64",
-      "edition": "professional",
-      "artifact_type": "zip",
-      "filename": "StreamGate-1.5.2-windows-x64-professional.zip",
-      "size": 176049152,
-      "sha256": "3624e18a7fc22f3fa043901f6f2b09882ebc6b42eab10ebcbcb0c13bff08d575",
-      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamgate-v1.5.2/StreamGate-1.5.2-windows-x64-professional.zip"
-    },
-    {
-      "platform": "linux_x86_64",
-      "edition": "standard",
-      "artifact_type": "tar.gz",
-      "filename": "streamgate-1.5.2-linux-x86_64-standard.tar.gz",
-      "size": 62993823,
-      "sha256": "ebbc0b9ebb166a890a34302059843b88cf436565827727ab3db74e0c597f0a41",
-      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamgate-v1.5.2/streamgate-1.5.2-linux-x86_64-standard.tar.gz"
-    },
-    {
-      "platform": "linux_aarch64",
-      "edition": "standard",
-      "artifact_type": "tar.gz",
-      "filename": "streamgate-1.5.2-linux-aarch64-standard.tar.gz",
-      "size": 64661856,
-      "sha256": "7b1731f24c9a3c788319111d745dd00f7d1276041763abd334abb67c77ca01d4",
-      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamgate-v1.5.2/streamgate-1.5.2-linux-aarch64-standard.tar.gz"
-    },
-    {
-      "platform": "linux_x86_64",
-      "edition": "professional",
-      "artifact_type": "tar.gz",
-      "filename": "streamgate-1.5.2-linux-x86_64-professional.tar.gz",
-      "size": 140903793,
-      "sha256": "2415b9264e3d740a06dfade65aaba65da4a04d7aebc912000371b3bc8f57cc8a",
-      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamgate-v1.5.2/streamgate-1.5.2-linux-x86_64-professional.tar.gz"
-    },
-    {
-      "platform": "linux_aarch64",
-      "edition": "professional",
-      "artifact_type": "tar.gz",
-      "filename": "streamgate-1.5.2-linux-aarch64-professional.tar.gz",
-      "size": 130726732,
-      "sha256": "4f46a4e392381a3c18234e1ebb3728e60e7b9d1b630092ee9356470420553a72",
-      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamgate-v1.5.2/streamgate-1.5.2-linux-aarch64-professional.tar.gz"
-    }
-  ]
+    "schema_version":  2,
+    "product":  "streamgate",
+    "name":  "StreamGate",
+    "version":  "1.7.0",
+    "analysis_node_version":  "1.1.0",
+    "release_channel":  "stable",
+    "release_date":  "2026-07-30",
+    "release_url":  "https://github.com/hbstream/hbrun-downloads/releases/tag/streamgate-v1.7.0",
+    "mirror_release_url":  "https://gitee.com/hbstream/streamgate-downloads/releases/tag/streamgate-v1.7.0",
+    "release_notes":  "streamgate/1.7.0/release-notes.md",
+    "checksum_file":  "streamgate/1.7.0/checksums.txt",
+    "packages":  [
+                     {
+                         "component":  "streamgate",
+                         "version":  "1.7.0",
+                         "platform":  "linux_aarch64",
+                         "edition":  "professional",
+                         "artifact_type":  "linux-tar.gz",
+                         "filename":  "streamgate-1.7.0-linux-aarch64-professional.tar.gz",
+                         "size":  100107270,
+                         "sha256":  "5c01940fd5dc3e180f66bbe6fd023ecdb2bf0cc42bd198a77fc2c6da9d4b7715",
+                         "download_url":  "https://github.com/hbstream/hbrun-downloads/releases/download/streamgate-v1.7.0/streamgate-1.7.0-linux-aarch64-professional.tar.gz",
+                         "mirrors":  [
+
+                                     ]
+                     },
+                     {
+                         "component":  "streamgate",
+                         "version":  "1.7.0",
+                         "platform":  "linux_aarch64",
+                         "edition":  "standard",
+                         "artifact_type":  "linux-tar.gz",
+                         "filename":  "streamgate-1.7.0-linux-aarch64-standard.tar.gz",
+                         "size":  68815410,
+                         "sha256":  "55fff5563a1aff1988f2e71e56d9b3ffc6dd1d622b9d533094d684f9e6feb6cb",
+                         "download_url":  "https://github.com/hbstream/hbrun-downloads/releases/download/streamgate-v1.7.0/streamgate-1.7.0-linux-aarch64-standard.tar.gz",
+                         "mirrors":  [
+                                         {
+                                             "name":  "Gitee",
+                                             "url":  "https://gitee.com/hbstream/streamgate-downloads/releases/download/streamgate-v1.7.0/streamgate-1.7.0-linux-aarch64-standard.tar.gz"
+                                         }
+                                     ]
+                     },
+                     {
+                         "component":  "streamgate",
+                         "version":  "1.7.0",
+                         "platform":  "linux_x86_64",
+                         "edition":  "professional",
+                         "artifact_type":  "linux-tar.gz",
+                         "filename":  "streamgate-1.7.0-linux-x86_64-professional.tar.gz",
+                         "size":  178143709,
+                         "sha256":  "847db26df1d4cdf0ca6c3bf389c61e83d91d0ea88008bcfffd04d7872b8dc545",
+                         "download_url":  "https://github.com/hbstream/hbrun-downloads/releases/download/streamgate-v1.7.0/streamgate-1.7.0-linux-x86_64-professional.tar.gz",
+                         "mirrors":  [
+
+                                     ]
+                     },
+                     {
+                         "component":  "streamgate",
+                         "version":  "1.7.0",
+                         "platform":  "linux_x86_64",
+                         "edition":  "standard",
+                         "artifact_type":  "linux-tar.gz",
+                         "filename":  "streamgate-1.7.0-linux-x86_64-standard.tar.gz",
+                         "size":  67273389,
+                         "sha256":  "24eeb4e436ca97ea52a0e32026926bae0fe979937b9491b321024790e7efed2c",
+                         "download_url":  "https://github.com/hbstream/hbrun-downloads/releases/download/streamgate-v1.7.0/streamgate-1.7.0-linux-x86_64-standard.tar.gz",
+                         "mirrors":  [
+                                         {
+                                             "name":  "Gitee",
+                                             "url":  "https://gitee.com/hbstream/streamgate-downloads/releases/download/streamgate-v1.7.0/streamgate-1.7.0-linux-x86_64-standard.tar.gz"
+                                         }
+                                     ]
+                     },
+                     {
+                         "component":  "streamgate",
+                         "version":  "1.7.0",
+                         "platform":  "windows_x86_64",
+                         "edition":  "professional",
+                         "artifact_type":  "windows-zip",
+                         "filename":  "StreamGate-1.7.0-windows-x64-professional.zip",
+                         "size":  203632283,
+                         "sha256":  "9ffd642cd742d6d3c6986c753fc0993e639a9e9a89cee19f74e54c6fa0e48d1c",
+                         "download_url":  "https://github.com/hbstream/hbrun-downloads/releases/download/streamgate-v1.7.0/StreamGate-1.7.0-windows-x64-professional.zip",
+                         "mirrors":  [
+
+                                     ]
+                     },
+                     {
+                         "component":  "streamgate",
+                         "version":  "1.7.0",
+                         "platform":  "windows_x86_64",
+                         "edition":  "professional",
+                         "artifact_type":  "windows-installer",
+                         "filename":  "StreamGate-1.7.0-windows-x64-professional-installer.exe",
+                         "size":  145976001,
+                         "sha256":  "4311ba7a044ed87cc43ad3d619a062adcfe6ef4793c537055529d68dce64620a",
+                         "download_url":  "https://github.com/hbstream/hbrun-downloads/releases/download/streamgate-v1.7.0/StreamGate-1.7.0-windows-x64-professional-installer.exe",
+                         "mirrors":  [
+
+                                     ]
+                     },
+                     {
+                         "component":  "streamgate",
+                         "version":  "1.7.0",
+                         "platform":  "windows_x86_64",
+                         "edition":  "standard",
+                         "artifact_type":  "windows-zip",
+                         "filename":  "StreamGate-1.7.0-windows-x64-standard.zip",
+                         "size":  68429692,
+                         "sha256":  "018678cabb77f5b888191f6e203b45030c8a5e0adc52b63d23d152e3a9034bec",
+                         "download_url":  "https://github.com/hbstream/hbrun-downloads/releases/download/streamgate-v1.7.0/StreamGate-1.7.0-windows-x64-standard.zip",
+                         "mirrors":  [
+                                         {
+                                             "name":  "Gitee",
+                                             "url":  "https://gitee.com/hbstream/streamgate-downloads/releases/download/streamgate-v1.7.0/StreamGate-1.7.0-windows-x64-standard.zip"
+                                         }
+                                     ]
+                     },
+                     {
+                         "component":  "streamgate",
+                         "version":  "1.7.0",
+                         "platform":  "windows_x86_64",
+                         "edition":  "standard",
+                         "artifact_type":  "windows-installer",
+                         "filename":  "StreamGate-1.7.0-windows-x64-standard-installer.exe",
+                         "size":  54761002,
+                         "sha256":  "df0e3aea33bf736df8716a105847761b0e0b3ec5983ee34424d19c5a94e9c690",
+                         "download_url":  "https://github.com/hbstream/hbrun-downloads/releases/download/streamgate-v1.7.0/StreamGate-1.7.0-windows-x64-standard-installer.exe",
+                         "mirrors":  [
+                                         {
+                                             "name":  "Gitee",
+                                             "url":  "https://gitee.com/hbstream/streamgate-downloads/releases/download/streamgate-v1.7.0/StreamGate-1.7.0-windows-x64-standard-installer.exe"
+                                         }
+                                     ]
+                     },
+                     {
+                         "component":  "analysis_node",
+                         "version":  "1.1.0",
+                         "platform":  "linux_aarch64",
+                         "package_profile":  "ai",
+                         "artifact_type":  "linux-tar.gz",
+                         "filename":  "streamgate-analysis-node-1.1.0-ai-linux-aarch64.tar.gz",
+                         "size":  73428397,
+                         "sha256":  "f21cb43097e909f23d7145fde7c9329c0780afe29b3ee84da09be27a37b11415",
+                         "download_url":  "https://github.com/hbstream/hbrun-downloads/releases/download/streamgate-v1.7.0/streamgate-analysis-node-1.1.0-ai-linux-aarch64.tar.gz",
+                         "mirrors":  [
+                                         {
+                                             "name":  "Gitee",
+                                             "url":  "https://gitee.com/hbstream/streamgate-downloads/releases/download/streamgate-v1.7.0/streamgate-analysis-node-1.1.0-ai-linux-aarch64.tar.gz"
+                                         }
+                                     ]
+                     },
+                     {
+                         "component":  "analysis_node",
+                         "version":  "1.1.0",
+                         "platform":  "linux_x86_64",
+                         "package_profile":  "ai",
+                         "artifact_type":  "linux-tar.gz",
+                         "filename":  "streamgate-analysis-node-1.1.0-ai-linux-x86_64.tar.gz",
+                         "size":  75941789,
+                         "sha256":  "76c85f26f9704051d68f487653fecc7836d7e25456dce4d3d3d3889696ee23b8",
+                         "download_url":  "https://github.com/hbstream/hbrun-downloads/releases/download/streamgate-v1.7.0/streamgate-analysis-node-1.1.0-ai-linux-x86_64.tar.gz",
+                         "mirrors":  [
+                                         {
+                                             "name":  "Gitee",
+                                             "url":  "https://gitee.com/hbstream/streamgate-downloads/releases/download/streamgate-v1.7.0/streamgate-analysis-node-1.1.0-ai-linux-x86_64.tar.gz"
+                                         }
+                                     ]
+                     },
+                     {
+                         "component":  "analysis_node",
+                         "version":  "1.1.0",
+                         "platform":  "windows_x86_64",
+                         "package_profile":  "ai",
+                         "artifact_type":  "windows-zip",
+                         "filename":  "StreamGate-AnalysisNode-1.1.0-ai-windows-x64.zip",
+                         "size":  79251695,
+                         "sha256":  "6ac7eb0f3faf76bb4dd067420441109e3f52ef72bfeee120fc21d1b8240bc954",
+                         "download_url":  "https://github.com/hbstream/hbrun-downloads/releases/download/streamgate-v1.7.0/StreamGate-AnalysisNode-1.1.0-ai-windows-x64.zip",
+                         "mirrors":  [
+                                         {
+                                             "name":  "Gitee",
+                                             "url":  "https://gitee.com/hbstream/streamgate-downloads/releases/download/streamgate-v1.7.0/StreamGate-AnalysisNode-1.1.0-ai-windows-x64.zip"
+                                         }
+                                     ]
+                     },
+                     {
+                         "component":  "analysis_node",
+                         "version":  "1.1.0",
+                         "platform":  "windows_x86_64",
+                         "package_profile":  "ai",
+                         "artifact_type":  "windows-installer",
+                         "filename":  "StreamGate-AnalysisNode-1.1.0-ai-windows-x64-installer.exe",
+                         "size":  67142895,
+                         "sha256":  "510fc5f1f6599fc0b3e757bdc5565f0ddc3949608280065b4e84c543616b3bb3",
+                         "download_url":  "https://github.com/hbstream/hbrun-downloads/releases/download/streamgate-v1.7.0/StreamGate-AnalysisNode-1.1.0-ai-windows-x64-installer.exe",
+                         "mirrors":  [
+                                         {
+                                             "name":  "Gitee",
+                                             "url":  "https://gitee.com/hbstream/streamgate-downloads/releases/download/streamgate-v1.7.0/StreamGate-AnalysisNode-1.1.0-ai-windows-x64-installer.exe"
+                                         }
+                                     ]
+                     },
+                     {
+                         "component":  "analysis_node",
+                         "version":  "1.1.0",
+                         "platform":  "linux_aarch64",
+                         "package_profile":  "base",
+                         "artifact_type":  "linux-tar.gz",
+                         "filename":  "streamgate-analysis-node-1.1.0-base-linux-aarch64.tar.gz",
+                         "size":  35458137,
+                         "sha256":  "6a41649d1e1ea5fee8f70c8de66e53fc28505ead40f7c37a53a276857a7da0e8",
+                         "download_url":  "https://github.com/hbstream/hbrun-downloads/releases/download/streamgate-v1.7.0/streamgate-analysis-node-1.1.0-base-linux-aarch64.tar.gz",
+                         "mirrors":  [
+                                         {
+                                             "name":  "Gitee",
+                                             "url":  "https://gitee.com/hbstream/streamgate-downloads/releases/download/streamgate-v1.7.0/streamgate-analysis-node-1.1.0-base-linux-aarch64.tar.gz"
+                                         }
+                                     ]
+                     },
+                     {
+                         "component":  "analysis_node",
+                         "version":  "1.1.0",
+                         "platform":  "linux_x86_64",
+                         "package_profile":  "base",
+                         "artifact_type":  "linux-tar.gz",
+                         "filename":  "streamgate-analysis-node-1.1.0-base-linux-x86_64.tar.gz",
+                         "size":  37973071,
+                         "sha256":  "5c29d83a10128c514210774d6230ab85c7d21c46122cfb681272c3ede4855e65",
+                         "download_url":  "https://github.com/hbstream/hbrun-downloads/releases/download/streamgate-v1.7.0/streamgate-analysis-node-1.1.0-base-linux-x86_64.tar.gz",
+                         "mirrors":  [
+                                         {
+                                             "name":  "Gitee",
+                                             "url":  "https://gitee.com/hbstream/streamgate-downloads/releases/download/streamgate-v1.7.0/streamgate-analysis-node-1.1.0-base-linux-x86_64.tar.gz"
+                                         }
+                                     ]
+                     },
+                     {
+                         "component":  "analysis_node",
+                         "version":  "1.1.0",
+                         "platform":  "windows_x86_64",
+                         "package_profile":  "base",
+                         "artifact_type":  "windows-zip",
+                         "filename":  "StreamGate-AnalysisNode-1.1.0-base-windows-x64.zip",
+                         "size":  41217388,
+                         "sha256":  "5d1b9908baa343604ab1a7d59817c212dbde7060a9f9f456a624e5e5077cad82",
+                         "download_url":  "https://github.com/hbstream/hbrun-downloads/releases/download/streamgate-v1.7.0/StreamGate-AnalysisNode-1.1.0-base-windows-x64.zip",
+                         "mirrors":  [
+                                         {
+                                             "name":  "Gitee",
+                                             "url":  "https://gitee.com/hbstream/streamgate-downloads/releases/download/streamgate-v1.7.0/StreamGate-AnalysisNode-1.1.0-base-windows-x64.zip"
+                                         }
+                                     ]
+                     },
+                     {
+                         "component":  "analysis_node",
+                         "version":  "1.1.0",
+                         "platform":  "windows_x86_64",
+                         "package_profile":  "base",
+                         "artifact_type":  "windows-installer",
+                         "filename":  "StreamGate-AnalysisNode-1.1.0-base-windows-x64-installer.exe",
+                         "size":  31690614,
+                         "sha256":  "830c82cf78fb33d1cf8dc9d7ae37e3ad8347780f2a6d876a0e2e1867023ff0bb",
+                         "download_url":  "https://github.com/hbstream/hbrun-downloads/releases/download/streamgate-v1.7.0/StreamGate-AnalysisNode-1.1.0-base-windows-x64-installer.exe",
+                         "mirrors":  [
+                                         {
+                                             "name":  "Gitee",
+                                             "url":  "https://gitee.com/hbstream/streamgate-downloads/releases/download/streamgate-v1.7.0/StreamGate-AnalysisNode-1.1.0-base-windows-x64-installer.exe"
+                                         }
+                                     ]
+                     }
+                 ]
 }

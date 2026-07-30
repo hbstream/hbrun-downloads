@@ -11,7 +11,7 @@ This repository publishes release notes, checksums, and machine-readable indexes
 | Product | Version | Release |
 | --- | --- | --- |
 | HBRun StreamCore SDK | 1.4.1 | [streamcore-sdk-v1.4.1](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcore-sdk-v1.4.1) |
-| HBRun StreamGate | 1.5.2 | [streamgate-v1.5.2](https://github.com/hbstream/hbrun-downloads/releases/tag/streamgate-v1.5.2) |
+| HBRun StreamGate | 1.7.0 | [streamgate-v1.7.0](https://github.com/hbstream/hbrun-downloads/releases/tag/streamgate-v1.7.0) |
 | HBRun StreamCall | 1.1.1 | [streamcall-v1.1.1](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcall-v1.1.1) |
 
 StreamCore SDK demo source and runnable demo packages are published separately in [hbstream/streamcore-sdk-demo](https://github.com/hbstream/streamcore-sdk-demo).
@@ -40,7 +40,7 @@ Release assets are also mirrored on [Gitee](https://gitee.com/hbstream/hbrun-dow
 Compare the downloaded file with the signed manifest and SHA-256 list in the matching version directory of this metadata repository.
 
 ```powershell
-Get-FileHash -Algorithm SHA256 .\StreamGate-1.5.2-windows-x64-standard-installer.exe
+Get-FileHash -Algorithm SHA256 .\StreamGate-1.7.0-windows-x64-standard-installer.exe
 ```
 
 ## 简体中文
@@ -52,7 +52,7 @@ Get-FileHash -Algorithm SHA256 .\StreamGate-1.5.2-windows-x64-standard-installer
 | 产品 | 版本 | 发布页 |
 | --- | --- | --- |
 | HBRun StreamCore SDK | 1.4.1 | [streamcore-sdk-v1.4.1](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcore-sdk-v1.4.1) |
-| HBRun StreamGate | 1.5.2 | [streamgate-v1.5.2](https://github.com/hbstream/hbrun-downloads/releases/tag/streamgate-v1.5.2) |
+| HBRun StreamGate | 1.7.0 | [streamgate-v1.7.0](https://github.com/hbstream/hbrun-downloads/releases/tag/streamgate-v1.7.0) |
 | HBRun StreamCall | 1.1.1 | [streamcall-v1.1.1](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcall-v1.1.1) |
 
 StreamCore SDK 演示程序源码和可运行演示包在 [hbstream/streamcore-sdk-demo](https://github.com/hbstream/streamcore-sdk-demo) 单独发布。
@@ -81,5 +81,5 @@ Release 附件同时镜像到 [Gitee](https://gitee.com/hbstream/hbrun-downloads
 下载后请使用本元数据仓库对应版本目录中的签名清单和 SHA-256 列表校验文件完整性。
 
 ```powershell
-Get-FileHash -Algorithm SHA256 .\StreamGate-1.5.2-windows-x64-standard-installer.exe
+Get-FileHash -Algorithm SHA256 .\StreamGate-1.7.0-windows-x64-standard-installer.exe
 ```

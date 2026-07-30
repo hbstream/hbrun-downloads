@@ -1,0 +1,16 @@
+5c01940fd5dc3e180f66bbe6fd023ecdb2bf0cc42bd198a77fc2c6da9d4b7715  streamgate-1.7.0-linux-aarch64-professional.tar.gz
+55fff5563a1aff1988f2e71e56d9b3ffc6dd1d622b9d533094d684f9e6feb6cb  streamgate-1.7.0-linux-aarch64-standard.tar.gz
+847db26df1d4cdf0ca6c3bf389c61e83d91d0ea88008bcfffd04d7872b8dc545  streamgate-1.7.0-linux-x86_64-professional.tar.gz
+24eeb4e436ca97ea52a0e32026926bae0fe979937b9491b321024790e7efed2c  streamgate-1.7.0-linux-x86_64-standard.tar.gz
+9ffd642cd742d6d3c6986c753fc0993e639a9e9a89cee19f74e54c6fa0e48d1c  StreamGate-1.7.0-windows-x64-professional.zip
+4311ba7a044ed87cc43ad3d619a062adcfe6ef4793c537055529d68dce64620a  StreamGate-1.7.0-windows-x64-professional-installer.exe
+018678cabb77f5b888191f6e203b45030c8a5e0adc52b63d23d152e3a9034bec  StreamGate-1.7.0-windows-x64-standard.zip
+df0e3aea33bf736df8716a105847761b0e0b3ec5983ee34424d19c5a94e9c690  StreamGate-1.7.0-windows-x64-standard-installer.exe
+f21cb43097e909f23d7145fde7c9329c0780afe29b3ee84da09be27a37b11415  streamgate-analysis-node-1.1.0-ai-linux-aarch64.tar.gz
+76c85f26f9704051d68f487653fecc7836d7e25456dce4d3d3d3889696ee23b8  streamgate-analysis-node-1.1.0-ai-linux-x86_64.tar.gz
+6ac7eb0f3faf76bb4dd067420441109e3f52ef72bfeee120fc21d1b8240bc954  StreamGate-AnalysisNode-1.1.0-ai-windows-x64.zip
+510fc5f1f6599fc0b3e757bdc5565f0ddc3949608280065b4e84c543616b3bb3  StreamGate-AnalysisNode-1.1.0-ai-windows-x64-installer.exe
+6a41649d1e1ea5fee8f70c8de66e53fc28505ead40f7c37a53a276857a7da0e8  streamgate-analysis-node-1.1.0-base-linux-aarch64.tar.gz
+5c29d83a10128c514210774d6230ab85c7d21c46122cfb681272c3ede4855e65  streamgate-analysis-node-1.1.0-base-linux-x86_64.tar.gz
+5d1b9908baa343604ab1a7d59817c212dbde7060a9f9f456a624e5e5077cad82  StreamGate-AnalysisNode-1.1.0-base-windows-x64.zip
+830c82cf78fb33d1cf8dc9d7ae37e3ad8347780f2a6d876a0e2e1867023ff0bb  StreamGate-AnalysisNode-1.1.0-base-windows-x64-installer.exe
