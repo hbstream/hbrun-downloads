@@ -1,14 +1,14 @@
-# StreamCall Server 1.2.0 / Endpoint 1.2.0
+# StreamCall Server 1.2.1 / Endpoint 1.2.0
 
 [English](#english) | [简体中文](#简体中文)
 
 ## English
 
-This release publishes StreamCall Server 1.2.0 and StreamCall Endpoint 1.2.0. The server and endpoint applications are versioned independently.
+This release publishes StreamCall Server 1.2.1 and StreamCall Endpoint 1.2.0. The server and endpoint applications are versioned independently.
 
 ### Packages
 
-- **Server 1.2.0:** offline Linux x86_64 package for private deployment, including the browser command center, service administration, calling, and recording.
+- **Server 1.2.1:** offline Linux x86_64 package for private deployment, including the browser command center, service administration, calling, and recording.
 - **Endpoint 1.2.0:** official applications for Windows x86_64, Linux x86_64, Android arm64-v8a, and macOS x86_64.
 
 ### Highlights
@@ -31,15 +31,15 @@ This release publishes StreamCall Server 1.2.0 and StreamCall Endpoint 1.2.0. Th
 - The Windows installer is currently unsigned, so Windows may display a publisher warning.
 - The Android APK is signed for direct distribution and is not an app-store build.
 - The macOS package is a direct-download preview; it is not Developer ID signed or notarized.
-- Verify downloaded files against the [signed release metadata](https://github.com/hbstream/hbrun-downloads/tree/main/streamcall/server-1.2.0_endpoint-1.2.0).
+- Verify downloaded files against the [signed release metadata](https://github.com/hbstream/hbrun-downloads/tree/main/streamcall/server-1.2.1_endpoint-1.2.0).
 
 ## 简体中文
 
-本次分别发布 StreamCall 服务端 1.2.0 和 StreamCall 现场终端 1.2.0。服务端与终端独立维护版本号。
+本次分别发布 StreamCall 服务端 1.2.1 和 StreamCall 现场终端 1.2.0。服务端与终端独立维护版本号。
 
 ### 发布包
 
-- **服务端 1.2.0：** 面向 Linux x86_64 私有化部署的离线包，包含浏览器调度中心、服务管理、呼叫和录制能力。
+- **服务端 1.2.1：** 面向 Linux x86_64 私有化部署的离线包，包含浏览器调度中心、服务管理、呼叫和录制能力。
 - **现场终端 1.2.0：** 提供 Windows x86_64、Linux x86_64、Android arm64-v8a 和 macOS x86_64 官方应用。
 
 ### 主要能力
@@ -62,4 +62,4 @@ This release publishes StreamCall Server 1.2.0 and StreamCall Endpoint 1.2.0. Th
 - Windows 安装包当前未进行代码签名，安装时可能显示发布者提示。
 - Android APK 已完成直接分发签名，不是应用商店构建。
 - macOS 包为直接下载预览版，尚未使用 Developer ID 签名或完成公证。
-- 请使用[签名发布元数据](https://github.com/hbstream/hbrun-downloads/tree/main/streamcall/server-1.2.0_endpoint-1.2.0)核对下载文件。
+- 请使用[签名发布元数据](https://github.com/hbstream/hbrun-downloads/tree/main/streamcall/server-1.2.1_endpoint-1.2.0)核对下载文件。

@@ -2,20 +2,20 @@
   "schema_version": 2,
   "product": "streamcall",
   "name": "StreamCall",
-  "release_set_id": "server-1.2.0_endpoint-1.2.0",
+  "release_set_id": "server-1.2.1_endpoint-1.2.0",
   "component_versions": {
-    "server": "1.2.0",
+    "server": "1.2.1",
     "official_endpoint": "1.2.0"
   },
-  "tag": "streamcall-server-v1.2.0-endpoint-v1.2.0",
-  "release_title": "StreamCall Server 1.2.0 / Endpoint 1.2.0",
+  "tag": "streamcall-server-v1.2.1-endpoint-v1.2.0",
+  "release_title": "StreamCall Server 1.2.1 / Endpoint 1.2.0",
   "release_channel": "stable",
   "prerelease": false,
   "managed_release_asset_count": 5,
-  "release_url": "https://github.com/hbstream/hbrun-downloads/releases/tag/streamcall-server-v1.2.0-endpoint-v1.2.0",
-  "mirror_release_url": "https://gitee.com/hbstream/streamcall-downloads/releases/tag/streamcall-server-v1.2.0-endpoint-v1.2.0",
-  "release_notes": "streamcall/server-1.2.0_endpoint-1.2.0/StreamCall-Server-1.2.0-Endpoint-1.2.0-RELEASE-NOTES.md",
-  "checksum_file": "streamcall/server-1.2.0_endpoint-1.2.0/StreamCall-Server-1.2.0-Endpoint-1.2.0-SHA256SUMS.txt",
+  "release_url": "https://github.com/hbstream/hbrun-downloads/releases/tag/streamcall-server-v1.2.1-endpoint-v1.2.0",
+  "mirror_release_url": "https://gitee.com/hbstream/streamcall-downloads/releases/tag/streamcall-server-v1.2.1-endpoint-v1.2.0",
+  "release_notes": "streamcall/server-1.2.1_endpoint-1.2.0/StreamCall-Server-1.2.1-Endpoint-1.2.0-RELEASE-NOTES.md",
+  "checksum_file": "streamcall/server-1.2.1_endpoint-1.2.0/StreamCall-Server-1.2.1-Endpoint-1.2.0-SHA256SUMS.txt",
   "authorization": {
     "download_channel_ready": true,
     "public_self_serve_sale_ready": false,
@@ -129,13 +129,13 @@
     "android_apk_signing_ready": true,
     "apple_developer_id_ready": false,
     "apple_notarization_ready": false,
-    "manifest": "streamcall/server-1.2.0_endpoint-1.2.0/StreamCall-Server-1.2.0-Endpoint-1.2.0-public-downloads.manifest.json",
-    "signature": "streamcall/server-1.2.0_endpoint-1.2.0/StreamCall-Server-1.2.0-Endpoint-1.2.0-public-downloads.sig",
-    "public_key": "streamcall/server-1.2.0_endpoint-1.2.0/StreamCall-Server-1.2.0-Endpoint-1.2.0-public-downloads.pub.pem",
+    "manifest": "streamcall/server-1.2.1_endpoint-1.2.0/StreamCall-Server-1.2.1-Endpoint-1.2.0-public-downloads.manifest.json",
+    "signature": "streamcall/server-1.2.1_endpoint-1.2.0/StreamCall-Server-1.2.1-Endpoint-1.2.0-public-downloads.sig",
+    "public_key": "streamcall/server-1.2.1_endpoint-1.2.0/StreamCall-Server-1.2.1-Endpoint-1.2.0-public-downloads.pub.pem",
     "metadata_in_release_assets": false
   },
   "reproducibility": {
-    "source_date_epoch": 1785256771,
+    "source_date_epoch": 1785574947,
     "android_source_date_epoch": 1785502535,
     "container_complete_build_count": 2,
     "container_byte_identical": true,
@@ -148,10 +148,10 @@
       "edition": "free_by_default_without_license",
       "role": "server",
       "artifact_type": "offline-docker-compose-tar.gz",
-      "filename": "StreamCall-Server-1.2.0-Linux-x86_64.tar.gz",
-      "size": 1627077722,
-      "sha256": "3b42f5adefc8717f28801c82b0513428a94b6190904cef7cb9a1878d36190013",
-      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-server-v1.2.0-endpoint-v1.2.0/StreamCall-Server-1.2.0-Linux-x86_64.tar.gz",
+      "filename": "StreamCall-Server-1.2.1-Linux-x86_64.tar.gz",
+      "size": 1627108719,
+      "sha256": "413c27a21c6588c723265884cdcabef9d96d6759e5bd775d6718380594cda916",
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-server-v1.2.1-endpoint-v1.2.0/StreamCall-Server-1.2.1-Linux-x86_64.tar.gz",
       "mirrors": {
         "gitee": null
       },
@@ -182,9 +182,9 @@
       "filename": "StreamCall-Endpoint-1.2.0-Windows-x86_64-Setup.exe",
       "size": 67317297,
       "sha256": "0cd1d3745237869998e915ab64801a0182dbd625d45cdfc39b564929b5d2ff3c",
-      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-server-v1.2.0-endpoint-v1.2.0/StreamCall-Endpoint-1.2.0-Windows-x86_64-Setup.exe",
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-server-v1.2.1-endpoint-v1.2.0/StreamCall-Endpoint-1.2.0-Windows-x86_64-Setup.exe",
       "mirrors": {
-        "gitee": "https://gitee.com/hbstream/streamcall-downloads/releases/download/streamcall-server-v1.2.0-endpoint-v1.2.0/StreamCall-Endpoint-1.2.0-Windows-x86_64-Setup.exe"
+        "gitee": "https://gitee.com/hbstream/streamcall-downloads/releases/download/streamcall-server-v1.2.1-endpoint-v1.2.0/StreamCall-Endpoint-1.2.0-Windows-x86_64-Setup.exe"
       },
       "mirror_status": {
         "gitee": "native_release_asset"
@@ -200,9 +200,9 @@
       "filename": "StreamCall-Endpoint-1.2.0-Linux-x86_64.AppImage",
       "size": 62499320,
       "sha256": "981fd6eaff82338abc96b4fcb679dd5d98882997c4649ac2a5c45e71fb9264d3",
-      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-server-v1.2.0-endpoint-v1.2.0/StreamCall-Endpoint-1.2.0-Linux-x86_64.AppImage",
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-server-v1.2.1-endpoint-v1.2.0/StreamCall-Endpoint-1.2.0-Linux-x86_64.AppImage",
       "mirrors": {
-        "gitee": "https://gitee.com/hbstream/streamcall-downloads/releases/download/streamcall-server-v1.2.0-endpoint-v1.2.0/StreamCall-Endpoint-1.2.0-Linux-x86_64.AppImage"
+        "gitee": "https://gitee.com/hbstream/streamcall-downloads/releases/download/streamcall-server-v1.2.1-endpoint-v1.2.0/StreamCall-Endpoint-1.2.0-Linux-x86_64.AppImage"
       },
       "mirror_status": {
         "gitee": "native_release_asset"
@@ -218,9 +218,9 @@
       "filename": "StreamCall-Endpoint-1.2.0-Android-arm.apk",
       "size": 23257747,
       "sha256": "54109c940f75b69bb83d4e670ceb6ab8f7d404db211c10faf286b12e4702c598",
-      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-server-v1.2.0-endpoint-v1.2.0/StreamCall-Endpoint-1.2.0-Android-arm.apk",
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-server-v1.2.1-endpoint-v1.2.0/StreamCall-Endpoint-1.2.0-Android-arm.apk",
       "mirrors": {
-        "gitee": "https://gitee.com/hbstream/streamcall-downloads/releases/download/streamcall-server-v1.2.0-endpoint-v1.2.0/StreamCall-Endpoint-1.2.0-Android-arm.apk"
+        "gitee": "https://gitee.com/hbstream/streamcall-downloads/releases/download/streamcall-server-v1.2.1-endpoint-v1.2.0/StreamCall-Endpoint-1.2.0-Android-arm.apk"
       },
       "mirror_status": {
         "gitee": "native_release_asset"
@@ -236,9 +236,9 @@
       "filename": "StreamCall-Endpoint-1.2.0-macOS-x86_64.dmg",
       "size": 1081935,
       "sha256": "57593377eb9332f6eae2bd48dbff642e0523c8b62414470c7109797ce7dba945",
-      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-server-v1.2.0-endpoint-v1.2.0/StreamCall-Endpoint-1.2.0-macOS-x86_64.dmg",
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/streamcall-server-v1.2.1-endpoint-v1.2.0/StreamCall-Endpoint-1.2.0-macOS-x86_64.dmg",
       "mirrors": {
-        "gitee": "https://gitee.com/hbstream/streamcall-downloads/releases/download/streamcall-server-v1.2.0-endpoint-v1.2.0/StreamCall-Endpoint-1.2.0-macOS-x86_64.dmg"
+        "gitee": "https://gitee.com/hbstream/streamcall-downloads/releases/download/streamcall-server-v1.2.1-endpoint-v1.2.0/StreamCall-Endpoint-1.2.0-macOS-x86_64.dmg"
       },
       "mirror_status": {
         "gitee": "native_release_asset"
