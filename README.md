@@ -12,11 +12,11 @@ This repository publishes release notes, checksums, and machine-readable indexes
 | --- | --- | --- |
 | HBRun StreamCore SDK | 1.6.2 | [streamcore-sdk-v1.6.2](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcore-sdk-v1.6.2) |
 | HBRun StreamGate | 1.7.0 | [streamgate-v1.7.0](https://github.com/hbstream/hbrun-downloads/releases/tag/streamgate-v1.7.0) |
-| HBRun StreamCall | 1.1.1 | [streamcall-v1.1.1](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcall-v1.1.1) |
+| HBRun StreamCall | Server 1.2.2 / Endpoint 1.2.2 / SDK 1.2.2 | [Current release](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcall-server-v1.2.2-endpoint-v1.2.2) |
 
 StreamCore SDK demo source and runnable demo packages are published separately in [hbstream/streamcore-sdk-demo](https://github.com/hbstream/streamcore-sdk-demo).
 
-Release assets are also mirrored on [Gitee](https://gitee.com/hbstream/hbrun-downloads/releases). Gitee natively carries the four StreamCall endpoint packages; its StreamCall release page links the exact GitHub server package because that offline archive exceeds Gitee's per-attachment limit. StreamCall Server starts in Free Edition when no signed license is imported; downloading it does not grant Starter, Integration, or OEM rights.
+StreamCall has ten verified release packages on GitHub. Its [Gitee mirror](https://gitee.com/hbstream/streamcall-downloads/releases/tag/streamcall-server-v1.2.2-endpoint-v1.2.2) carries the nine official-endpoint and SDK packages; the large offline Server archive is GitHub-only. Official applications are Windows EXE/ZIP, Linux x86_64 TGZ, and Android ARM APK. macOS, iOS, Linux aarch64, and Windows Server are not included. StreamCall Server starts in Free Edition when no signed license is imported; downloading a package does not grant commercial API, SDK integration, or OEM rights. Previous releases are retained.
 
 ### Official Links
 
@@ -53,11 +53,11 @@ Get-FileHash -Algorithm SHA256 .\StreamGate-1.7.0-windows-x64-standard-installer
 | --- | --- | --- |
 | HBRun StreamCore SDK | 1.6.2 | [streamcore-sdk-v1.6.2](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcore-sdk-v1.6.2) |
 | HBRun StreamGate | 1.7.0 | [streamgate-v1.7.0](https://github.com/hbstream/hbrun-downloads/releases/tag/streamgate-v1.7.0) |
-| HBRun StreamCall | 1.1.1 | [streamcall-v1.1.1](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcall-v1.1.1) |
+| HBRun StreamCall | 服务端 1.2.2 / 终端 1.2.2 / SDK 1.2.2 | [当前发布](https://github.com/hbstream/hbrun-downloads/releases/tag/streamcall-server-v1.2.2-endpoint-v1.2.2) |
 
 StreamCore SDK 演示程序源码和可运行演示包在 [hbstream/streamcore-sdk-demo](https://github.com/hbstream/streamcore-sdk-demo) 单独发布。
 
-Release 附件同时镜像到 [Gitee](https://gitee.com/hbstream/hbrun-downloads/releases)。Gitee 原生提供四个 StreamCall 终端包；离线服务端包超过其单附件限制，因此 Gitee 的 StreamCall 发布页链接同一个 GitHub 精确服务端包。StreamCall Server 在未导入签名授权时按免费版运行；下载文件不会授予 Starter、Integration 或 OEM 权利。
+GitHub 提供 StreamCall 本次 10 个已校验交付包；[Gitee 镜像](https://gitee.com/hbstream/streamcall-downloads/releases/tag/streamcall-server-v1.2.2-endpoint-v1.2.2) 提供其中 9 个官方终端与 SDK 包，大型离线服务端包仅通过 GitHub 提供。官方应用为 Windows EXE/ZIP、Linux x86_64 TGZ 与 Android ARM APK；macOS、iOS、Linux aarch64 和 Windows 服务端不属于本次交付。未导入签名授权时服务端按免费版运行；下载不授予商业 API、SDK 集成或 OEM 权利。旧版本保留。
 
 ### 官方入口
 
