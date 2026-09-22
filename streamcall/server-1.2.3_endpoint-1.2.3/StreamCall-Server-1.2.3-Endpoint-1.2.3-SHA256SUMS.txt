@@ -1,0 +1,10 @@
+686354884e9d82c570bfaf32410383994bfb32e06b41c409a9d798d4dbf19947  StreamCall-Server-1.2.3-Linux-x86_64.tar.gz
+2033cc20dc23b70fc26ec0850c29eac7ffc52f3bd1431f29d7bfd6f9a250f984  StreamCall-Endpoint-1.2.3-Android-arm.apk
+60cd3f1b72d0369b285b75edb23d680829a7d87da4b5679cd19517657853249f  StreamCall-Endpoint-1.2.3-Linux-x86_64.tgz
+2f46751fd248f3499592d835f117f7053258938ae743e6adff1e8debeca82572  StreamCall-Endpoint-1.2.3-Windows-x86_64-Setup.exe
+3710a42c19a182af4e735c5bf48d22c9059cf7c332ee0a0a0aff830544ccdede  StreamCall-Endpoint-1.2.3-Windows-x86_64.zip
+d61632123e481efe54df61eefef91c330fff3217f3bfb75bd24d9adbb8f839e2  StreamCall-Server-SDK-1.2.3-Web.tar.gz
+bd26e141fd240f401c008b6697d15d1d64c8156431a345e8d4ccd5f1e74d8aa8  StreamCall-Endpoint-SDK-1.2.3-Android.zip
+ccfa0a0247e3408c1904aa10be9047b9fa05c380f19e9020d6d6c1e9c91213f2  StreamCall-Endpoint-SDK-1.2.3-Linux-x86_64.tar.gz
+1e83766b52a195a94a807f9144e85d8949e7217197f0006fa3b5f81fabd599b7  StreamCall-Endpoint-SDK-1.2.3-Web.zip
+389ea9143fb31950fe0c01e74efa81cedf2b2efcbb6d0ba4ca16be5261df6a43  StreamCall-Endpoint-SDK-1.2.3-Windows-x64.zip
