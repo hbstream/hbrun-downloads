@@ -1,6 +1,10 @@
 # HBRun Connect 1.1.0 发布说明
 
-HBRun Connect 1.1.0 是当前计划公开交付的统一版本。它面向客户私有部署的远程可视协助与专家支持场景，包含 Linux/Windows Server、Windows 专家端、Windows 有人值守现场端、Android 现场端、Web Portal 以及三类集成 SDK。各组件使用同一产品版本号；底层 realtime wire、Native C ABI、Webhook schema、SQLite schema 和许可证合同继续按各自兼容版本演进，不因产品次版本升级而无故破坏兼容。
+HBRun Connect 1.1.0 是当前正式公开交付的统一版本。它面向客户私有部署的远程可视协助与专家支持场景，包含 Linux/Windows Server、Windows 专家端、Windows 有人值守现场端、Android 现场端、Web Portal 以及三类集成 SDK。各组件使用同一产品版本号；底层 realtime wire、Native C ABI、Webhook schema、SQLite schema 和许可证合同继续按各自兼容版本演进，不因产品次版本升级而无故破坏兼容。
+
+> 发布修订 2：修正协议包、客户文档和发布说明中的预发布状态措辞。客户端、Server、SDK 二进制、
+> Android 签名证书和 Server release attestation 均未改变；请始终以当前 `release-index.json` 与
+> `SHA256SUMS` 为准。
 
 ## 机器可读发布集合
 
@@ -40,7 +44,7 @@ android_version_code=9
 - Windows 安装包 1.1.0 暂不使用 Authenticode。官网下载页和 `CHECKSUMS.sha256` 用于校验下载字节；Windows 仍可能显示“未知发布者”，企业策略也可能阻止未签名程序。
 - Android APK 使用独立的 HBRun Connect Android 发布证书签名。后续升级必须继续使用相同证书；不要用 Debug 或其他产品证书覆盖安装。
 - 私有部署可由引导程序生成部署级私有 CA，也可导入客户 CA/公开 CA。使用私有 CA 时，客户端必须通过可信管理通道安装根证书。
-- 官网待上传目录通过 HTTPS 提供下载身份与传输保护；本版本不使用 CMS 包签名。
+- GitHub/Gitee 正式发布页通过 HTTPS 提供下载身份与传输保护；本版本不使用 CMS 包签名。
 
 ## 兼容与边界
 
@@ -48,7 +52,7 @@ android_version_code=9
 - 桌面客户端为 Windows x64；Linux 桌面客户端不在 1.1.0 范围内。
 - Windows 仅支持有人值守远控；文件传输、剪贴板同步、无人值守控制和安全桌面输入不在范围内。
 - 产品按一个逻辑 Server 部署与一个命名产品/App 家族授予生产集成许可；官方客户端不另行按设备收费。额外逻辑部署、额外产品家族或 OEM 再分发需要扩展授权范围。
-- 1.1.0 只有在同一干净来源构建、平台签名/未签名状态核对和候选验收完成后才可公开；开发工作树或较早 1.0.1 制品不能冒充 1.1.0。
+- 1.1.0 已完成同一干净来源构建、平台签名/未签名状态核对、候选验收和双镜像匿名回读；开发工作树或较早 1.0.1 制品不能冒充 1.1.0。
 
 ## 发布校验
 

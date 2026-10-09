@@ -302,8 +302,8 @@
       "package_role": "protocol",
       "filename": "hbrun-connect-protocol-1.1.0.zip",
       "local_path": "packages/protocol/hbrun-connect-protocol-1.1.0.zip",
-      "size_bytes": 23940,
-      "sha256": "0eecf4fca079310d6f3cb6b1da4f685abb8a9f635b22d242424021e8ab4a7f85",
+      "size_bytes": 23443,
+      "sha256": "285f2b03266614423a0372e98496ffa918c2c2c97ec405fb2a79b0e148a4de87",
       "signature": "sha256_over_official_https",
       "license_required": true,
       "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-protocol-1.1.0.zip",
@@ -324,8 +324,8 @@
       "package_role": "documentation",
       "filename": "HBRun-Connect-Customer-Docs-1.1.0.zip",
       "local_path": "documents/HBRun-Connect-Customer-Docs-1.1.0.zip",
-      "size_bytes": 1398364,
-      "sha256": "426b16583d102dd597a6992701fbb6cbc1f0e231a5ca664ce8714be2be4c4088",
+      "size_bytes": 1398388,
+      "sha256": "f3a43de7c4296e139ff4da8eba696797ee044a5cd397a47efc56be222431c4a8",
       "signature": "sha256_over_official_https",
       "license_required": false,
       "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/HBRun-Connect-Customer-Docs-1.1.0.zip",
@@ -336,12 +336,28 @@
       }
     }
   ],
+  "publication_revision": {
+    "revision": 2,
+    "reason": "correct_public_release_wording_in_protocol_customer_documents_and_release_notes",
+    "source_commit": "fc391bfa899e1fce4db3492575db549cc9c697dd",
+    "changed_download_ids": [
+      "protocol",
+      "customer_documents"
+    ],
+    "changed_publication_files": [
+      "hbrun-connect-protocol-1.1.0.zip",
+      "HBRun-Connect-Customer-Docs-1.1.0.zip",
+      "RELEASE_NOTES.md"
+    ],
+    "previous_protocol_sha256": "0eecf4fca079310d6f3cb6b1da4f685abb8a9f635b22d242424021e8ab4a7f85",
+    "previous_customer_documents_sha256": "426b16583d102dd597a6992701fbb6cbc1f0e231a5ca664ce8714be2be4c4088"
+  },
   "schema_version": 2,
   "release_channel": "stable",
   "prerelease": false,
   "release_url": "https://github.com/hbstream/hbrun-downloads/releases/tag/hbrun-connect-v1.1.0",
   "mirror_release_url": "https://gitee.com/hbstream/connect-downloads/releases/tag/hbrun-connect-v1.1.0",
-  "published_at": "2026-10-09T08:50:33Z",
+  "published_at": "2026-10-09T09:47:35Z",
   "distribution": {
     "primary": "github",
     "mirror": "gitee",

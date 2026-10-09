@@ -1,9 +1,9 @@
-426b16583d102dd597a6992701fbb6cbc1f0e231a5ca664ce8714be2be4c4088  HBRun-Connect-Customer-Docs-1.1.0.zip
+f3a43de7c4296e139ff4da8eba696797ee044a5cd397a47efc56be222431c4a8  HBRun-Connect-Customer-Docs-1.1.0.zip
 ebe9706b548b1ef13b1e2be1f45b15a161aa5e9bdcb70174cb945d09aa687853  android-signing-result.json
 5185afbc7e6faea5bdad68c7bd80aefc865221615566cce08db0680324571fca  hbrun-connect-server-1.1.0-linux-x64.release-attestation.json
 71a5b7b935d3bf788629117d88c6056b9614b720cf0bfdc765d2acaa78f8f599  publication-trust-policy.json
-d9da09b7c217cda2069af7b3b2e6a91eee7a8f061585a1268d5d868c7dd93d9b  RELEASE_NOTES.md
-5958926363a2c54a5c2197d0d03c50911a79e7bc72a95292b0d215dc38e6bf28  release-index.json
+83170004477c36f37bb1528ffa72bb081d40337b8485925880094b6f285aae14  RELEASE_NOTES.md
+25c31f5b35d147d384771e70f8200bbd5f4f26aac506fe089b57935c46dce8a7  release-index.json
 e2a5ced146699295a93ca5243f7352305887c6d7978c0040e08bf788047629f6  hbrun-connect-expert-1.1.0-windows-x64-setup.exe
 f65e4c94b3d15c6ce3a12a8e36cc78a2d33e3c804527e77dd5fbb3903fa12f90  hbrun-connect-field-attended-1.1.0-windows-x64-setup.exe
 e6e997df782af5e48dafe812bba13eaed740a345b989733c10c464f414086681  hbrun-connect-server-1.1.0-windows-x64-setup.exe
@@ -11,10 +11,9 @@ be91c0bf669e6ba0396d64dd86c4ea36f0ff719428a6f41d3da0b34d5998cf5b  hbrun-connect-
 f138f389fdb5ec23c102616e7d05881703d9e226918dd04b9d8fadd32084b6af  hbrun-connect-expert-1.1.0-windows-x64-portable.zip
 3a056174fcd238e812d630f75d2f9ea67674df881809c2c5dd270965e0adc0ad  hbrun-connect-field-attended-1.1.0-windows-x64-portable.zip
 20e65714d15fd4a46828ba2ada581458d91f67cf676f1f127f674c93474e21fd  hbrun-connect-server-1.1.0-windows-x64-portable.zip
-0eecf4fca079310d6f3cb6b1da4f685abb8a9f635b22d242424021e8ab4a7f85  hbrun-connect-protocol-1.1.0.zip
+285f2b03266614423a0372e98496ffa918c2c2c97ec405fb2a79b0e148a4de87  hbrun-connect-protocol-1.1.0.zip
 941275712bd1f6edae8df9a570350a2f663edfbc2ecafd8d7b5adb7d1d890904  hbrun-connect-android-sdk-1.1.0.zip
 cb63fbb8f618430d46bb265205bc16a28b7168a1fc033444d06b0600b3a43a73  hbrun-connect-client-1.1.0.tgz
 bb8cc6784ee1dbbda2cc6fc003e378da49b22b8e24a817c448da4ca2be496b36  hbrun-connect-native-sdk-1.1.0-windows-x64.zip
 75d6ef65b8f9c45225e58077df9381cf72198a2b5915ece410fd7aff48b41e97  hbrun-connect-server-1.1.0-linux-x64.tar.gz
 835fd0f242bde6649567f8b39b3e35711e6b7471cc357def520673ccde41e80a  hbrun-connect-web-portal-1.1.0.zip
-
