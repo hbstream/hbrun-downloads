@@ -1,0 +1,352 @@
+{
+  "schema": "hbrun.connect.public-release/v2",
+  "product_id": "hbrun_connect",
+  "product_name": "HBRun Connect",
+  "version": "1.1.0",
+  "release_date": "2026-10-09",
+  "publication_status": "published",
+  "release_tag": "hbrun-connect-v1.1.0",
+  "source_candidate": {
+    "candidate_id": "hbrun-connect-internal-1.1.0-1bf521b2004c",
+    "source_commit": "1bf521b2004c2352b41fc6b3a25ca287c3c14437",
+    "manifest_sha256": "e9c3f48aafe4a82efb5d83d492dfd342f35871a415bf6b6dde9df7a8d1f59e63"
+  },
+  "trust": {
+    "cms_package_signature": "not_used",
+    "windows_authenticode": "not_used",
+    "windows_install_notice": "unknown_publisher_expected_verify_https_size_sha256",
+    "android_release_signature": "verified_v2_v3",
+    "android_signer_certificate_sha256": "624596ada75e6cc2a991e49f1fbabc5542a9f3c2209dbeb6d66163cb8bdaca86",
+    "server_release_attestation": {
+      "filename": "hbrun-connect-server-1.1.0-linux-x64.release-attestation.json",
+      "size_bytes": 877,
+      "sha256": "5185afbc7e6faea5bdad68c7bd80aefc865221615566cce08db0680324571fca",
+      "key_id": "connect-license-prod-v1",
+      "public_key_spki_sha256": "87a2578538f688b24f953162d2eea79bc89b61a34887d7c33829d2a44a86e7d4",
+      "manifest_sha256": "770de7f65f455c3456ebe8f878ef837271757a5edef094c101430dd64286cbab"
+    }
+  },
+  "downloads": [
+    {
+      "id": "server_linux_x64",
+      "component": "server",
+      "label_zh": "Linux x64 服务端",
+      "label_en": "Linux x64 Server",
+      "version": "1.1.0",
+      "platform": "linux_x86_64",
+      "artifact_type": "tar.gz",
+      "package_role": "server",
+      "filename": "hbrun-connect-server-1.1.0-linux-x64.tar.gz",
+      "local_path": "packages/server/hbrun-connect-server-1.1.0-linux-x64.tar.gz",
+      "size_bytes": 28415175,
+      "sha256": "75d6ef65b8f9c45225e58077df9381cf72198a2b5915ece410fd7aff48b41e97",
+      "signature": "sha256_and_rs256_release_attestation",
+      "license_required": true,
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-server-1.1.0-linux-x64.tar.gz",
+      "checksum_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-server-1.1.0-linux-x64.tar.gz.sha256",
+      "mirrors": {
+        "gitee": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-server-1.1.0-linux-x64.tar.gz",
+        "gitee_checksum": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-server-1.1.0-linux-x64.tar.gz.sha256"
+      }
+    },
+    {
+      "id": "server_windows_x64_installer",
+      "component": "server",
+      "label_zh": "Windows x64 服务端安装包",
+      "label_en": "Windows x64 Server Setup",
+      "version": "1.1.0",
+      "platform": "windows_x86_64",
+      "artifact_type": "windows-installer",
+      "package_role": "installer",
+      "filename": "hbrun-connect-server-1.1.0-windows-x64-setup.exe",
+      "local_path": "packages/installers/hbrun-connect-server-1.1.0-windows-x64-setup.exe",
+      "size_bytes": 22747421,
+      "sha256": "e6e997df782af5e48dafe812bba13eaed740a345b989733c10c464f414086681",
+      "signature": "unsigned_sha256",
+      "license_required": true,
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-server-1.1.0-windows-x64-setup.exe",
+      "checksum_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-server-1.1.0-windows-x64-setup.exe.sha256",
+      "mirrors": {
+        "gitee": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-server-1.1.0-windows-x64-setup.exe",
+        "gitee_checksum": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-server-1.1.0-windows-x64-setup.exe.sha256"
+      }
+    },
+    {
+      "id": "server_windows_x64_portable",
+      "component": "server",
+      "label_zh": "Windows x64 服务端绿色包",
+      "label_en": "Windows x64 Server portable package",
+      "version": "1.1.0",
+      "platform": "windows_x86_64",
+      "artifact_type": "windows-portable-zip",
+      "package_role": "portable",
+      "filename": "hbrun-connect-server-1.1.0-windows-x64-portable.zip",
+      "local_path": "packages/portable/hbrun-connect-server-1.1.0-windows-x64-portable.zip",
+      "size_bytes": 56058105,
+      "sha256": "20e65714d15fd4a46828ba2ada581458d91f67cf676f1f127f674c93474e21fd",
+      "signature": "unsigned_sha256",
+      "license_required": true,
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-server-1.1.0-windows-x64-portable.zip",
+      "checksum_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-server-1.1.0-windows-x64-portable.zip.sha256",
+      "mirrors": {
+        "gitee": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-server-1.1.0-windows-x64-portable.zip",
+        "gitee_checksum": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-server-1.1.0-windows-x64-portable.zip.sha256"
+      }
+    },
+    {
+      "id": "expert_windows_x64_installer",
+      "component": "expert_client",
+      "label_zh": "Windows x64 专家端安装包",
+      "label_en": "Windows x64 Expert Setup",
+      "version": "1.1.0",
+      "platform": "windows_x86_64",
+      "artifact_type": "windows-installer",
+      "package_role": "installer",
+      "filename": "hbrun-connect-expert-1.1.0-windows-x64-setup.exe",
+      "local_path": "packages/installers/hbrun-connect-expert-1.1.0-windows-x64-setup.exe",
+      "size_bytes": 25029863,
+      "sha256": "e2a5ced146699295a93ca5243f7352305887c6d7978c0040e08bf788047629f6",
+      "signature": "unsigned_sha256",
+      "license_required": false,
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-expert-1.1.0-windows-x64-setup.exe",
+      "checksum_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-expert-1.1.0-windows-x64-setup.exe.sha256",
+      "mirrors": {
+        "gitee": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-expert-1.1.0-windows-x64-setup.exe",
+        "gitee_checksum": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-expert-1.1.0-windows-x64-setup.exe.sha256"
+      }
+    },
+    {
+      "id": "expert_windows_x64_portable",
+      "component": "expert_client",
+      "label_zh": "Windows x64 专家端绿色包",
+      "label_en": "Windows x64 Expert portable package",
+      "version": "1.1.0",
+      "platform": "windows_x86_64",
+      "artifact_type": "windows-portable-zip",
+      "package_role": "portable",
+      "filename": "hbrun-connect-expert-1.1.0-windows-x64-portable.zip",
+      "local_path": "packages/portable/hbrun-connect-expert-1.1.0-windows-x64-portable.zip",
+      "size_bytes": 60408875,
+      "sha256": "f138f389fdb5ec23c102616e7d05881703d9e226918dd04b9d8fadd32084b6af",
+      "signature": "unsigned_sha256",
+      "license_required": false,
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-expert-1.1.0-windows-x64-portable.zip",
+      "checksum_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-expert-1.1.0-windows-x64-portable.zip.sha256",
+      "mirrors": {
+        "gitee": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-expert-1.1.0-windows-x64-portable.zip",
+        "gitee_checksum": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-expert-1.1.0-windows-x64-portable.zip.sha256"
+      }
+    },
+    {
+      "id": "field_windows_attended_x64_installer",
+      "component": "field_client",
+      "label_zh": "Windows x64 有人值守现场端安装包",
+      "label_en": "Windows x64 attended Field Setup",
+      "version": "1.1.0",
+      "platform": "windows_x86_64",
+      "artifact_type": "windows-installer",
+      "package_role": "installer",
+      "filename": "hbrun-connect-field-attended-1.1.0-windows-x64-setup.exe",
+      "local_path": "packages/installers/hbrun-connect-field-attended-1.1.0-windows-x64-setup.exe",
+      "size_bytes": 24949568,
+      "sha256": "f65e4c94b3d15c6ce3a12a8e36cc78a2d33e3c804527e77dd5fbb3903fa12f90",
+      "signature": "unsigned_sha256",
+      "license_required": false,
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-field-attended-1.1.0-windows-x64-setup.exe",
+      "checksum_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-field-attended-1.1.0-windows-x64-setup.exe.sha256",
+      "mirrors": {
+        "gitee": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-field-attended-1.1.0-windows-x64-setup.exe",
+        "gitee_checksum": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-field-attended-1.1.0-windows-x64-setup.exe.sha256"
+      }
+    },
+    {
+      "id": "field_windows_attended_x64_portable",
+      "component": "field_client",
+      "label_zh": "Windows x64 有人值守现场端绿色包",
+      "label_en": "Windows x64 attended Field portable package",
+      "version": "1.1.0",
+      "platform": "windows_x86_64",
+      "artifact_type": "windows-portable-zip",
+      "package_role": "portable",
+      "filename": "hbrun-connect-field-attended-1.1.0-windows-x64-portable.zip",
+      "local_path": "packages/portable/hbrun-connect-field-attended-1.1.0-windows-x64-portable.zip",
+      "size_bytes": 60207277,
+      "sha256": "3a056174fcd238e812d630f75d2f9ea67674df881809c2c5dd270965e0adc0ad",
+      "signature": "unsigned_sha256",
+      "license_required": false,
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-field-attended-1.1.0-windows-x64-portable.zip",
+      "checksum_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-field-attended-1.1.0-windows-x64-portable.zip.sha256",
+      "mirrors": {
+        "gitee": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-field-attended-1.1.0-windows-x64-portable.zip",
+        "gitee_checksum": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-field-attended-1.1.0-windows-x64-portable.zip.sha256"
+      }
+    },
+    {
+      "id": "field_android",
+      "component": "field_client",
+      "label_zh": "Android 现场端 APK",
+      "label_en": "Android Field APK",
+      "version": "1.1.0",
+      "platform": "android",
+      "artifact_type": "apk",
+      "package_role": "mobile-app",
+      "filename": "hbrun-connect-field-1.1.0-android.apk",
+      "local_path": "packages/mobile/hbrun-connect-field-1.1.0-android.apk",
+      "size_bytes": 51618507,
+      "sha256": "be91c0bf669e6ba0396d64dd86c4ea36f0ff719428a6f41d3da0b34d5998cf5b",
+      "signature": "android_apk_v2_v3",
+      "license_required": false,
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-field-1.1.0-android.apk",
+      "checksum_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-field-1.1.0-android.apk.sha256",
+      "mirrors": {
+        "gitee": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-field-1.1.0-android.apk",
+        "gitee_checksum": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-field-1.1.0-android.apk.sha256"
+      }
+    },
+    {
+      "id": "native_sdk_windows_x64",
+      "component": "sdk",
+      "label_zh": "Windows Native C ABI SDK",
+      "label_en": "Windows Native C ABI SDK",
+      "version": "1.1.0",
+      "platform": "windows_x86_64",
+      "artifact_type": "sdk-zip",
+      "package_role": "sdk",
+      "filename": "hbrun-connect-native-sdk-1.1.0-windows-x64.zip",
+      "local_path": "packages/sdk/hbrun-connect-native-sdk-1.1.0-windows-x64.zip",
+      "size_bytes": 11939306,
+      "sha256": "bb8cc6784ee1dbbda2cc6fc003e378da49b22b8e24a817c448da4ca2be496b36",
+      "signature": "sha256_over_official_https",
+      "license_required": true,
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-native-sdk-1.1.0-windows-x64.zip",
+      "checksum_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-native-sdk-1.1.0-windows-x64.zip.sha256",
+      "mirrors": {
+        "gitee": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-native-sdk-1.1.0-windows-x64.zip",
+        "gitee_checksum": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-native-sdk-1.1.0-windows-x64.zip.sha256"
+      }
+    },
+    {
+      "id": "android_sdk",
+      "component": "sdk",
+      "label_zh": "Android AAR SDK",
+      "label_en": "Android AAR SDK",
+      "version": "1.1.0",
+      "platform": "android",
+      "artifact_type": "sdk-zip",
+      "package_role": "sdk",
+      "filename": "hbrun-connect-android-sdk-1.1.0.zip",
+      "local_path": "packages/sdk/hbrun-connect-android-sdk-1.1.0.zip",
+      "size_bytes": 426954,
+      "sha256": "941275712bd1f6edae8df9a570350a2f663edfbc2ecafd8d7b5adb7d1d890904",
+      "signature": "sha256_over_official_https",
+      "license_required": true,
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-android-sdk-1.1.0.zip",
+      "checksum_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-android-sdk-1.1.0.zip.sha256",
+      "mirrors": {
+        "gitee": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-android-sdk-1.1.0.zip",
+        "gitee_checksum": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-android-sdk-1.1.0.zip.sha256"
+      }
+    },
+    {
+      "id": "typescript_sdk",
+      "component": "sdk",
+      "label_zh": "TypeScript SDK",
+      "label_en": "TypeScript SDK",
+      "version": "1.1.0",
+      "platform": "typescript",
+      "artifact_type": "npm-tgz",
+      "package_role": "sdk",
+      "filename": "hbrun-connect-client-1.1.0.tgz",
+      "local_path": "packages/sdk/hbrun-connect-client-1.1.0.tgz",
+      "size_bytes": 27000,
+      "sha256": "cb63fbb8f618430d46bb265205bc16a28b7168a1fc033444d06b0600b3a43a73",
+      "signature": "sha256_over_official_https",
+      "license_required": true,
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-client-1.1.0.tgz",
+      "checksum_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-client-1.1.0.tgz.sha256",
+      "mirrors": {
+        "gitee": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-client-1.1.0.tgz",
+        "gitee_checksum": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-client-1.1.0.tgz.sha256"
+      }
+    },
+    {
+      "id": "web_portal",
+      "component": "web_portal",
+      "label_zh": "Web Portal",
+      "label_en": "Web Portal",
+      "version": "1.1.0",
+      "platform": "web",
+      "artifact_type": "web-zip",
+      "package_role": "web",
+      "filename": "hbrun-connect-web-portal-1.1.0.zip",
+      "local_path": "packages/web/hbrun-connect-web-portal-1.1.0.zip",
+      "size_bytes": 961872,
+      "sha256": "835fd0f242bde6649567f8b39b3e35711e6b7471cc357def520673ccde41e80a",
+      "signature": "sha256_over_official_https",
+      "license_required": true,
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-web-portal-1.1.0.zip",
+      "checksum_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-web-portal-1.1.0.zip.sha256",
+      "mirrors": {
+        "gitee": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-web-portal-1.1.0.zip",
+        "gitee_checksum": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-web-portal-1.1.0.zip.sha256"
+      }
+    },
+    {
+      "id": "protocol",
+      "component": "protocol",
+      "label_zh": "协议合同",
+      "label_en": "Protocol contract",
+      "version": "1.1.0",
+      "platform": "cross_platform",
+      "artifact_type": "protocol-zip",
+      "package_role": "protocol",
+      "filename": "hbrun-connect-protocol-1.1.0.zip",
+      "local_path": "packages/protocol/hbrun-connect-protocol-1.1.0.zip",
+      "size_bytes": 23940,
+      "sha256": "0eecf4fca079310d6f3cb6b1da4f685abb8a9f635b22d242424021e8ab4a7f85",
+      "signature": "sha256_over_official_https",
+      "license_required": true,
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-protocol-1.1.0.zip",
+      "checksum_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-protocol-1.1.0.zip.sha256",
+      "mirrors": {
+        "gitee": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-protocol-1.1.0.zip",
+        "gitee_checksum": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/hbrun-connect-protocol-1.1.0.zip.sha256"
+      }
+    },
+    {
+      "id": "customer_documents",
+      "component": "documentation",
+      "label_zh": "三语使用与接口文档",
+      "label_en": "Three-language user and API documents",
+      "version": "1.1.0",
+      "platform": "cross_platform",
+      "artifact_type": "document-zip",
+      "package_role": "documentation",
+      "filename": "HBRun-Connect-Customer-Docs-1.1.0.zip",
+      "local_path": "documents/HBRun-Connect-Customer-Docs-1.1.0.zip",
+      "size_bytes": 1398364,
+      "sha256": "426b16583d102dd597a6992701fbb6cbc1f0e231a5ca664ce8714be2be4c4088",
+      "signature": "sha256_over_official_https",
+      "license_required": false,
+      "download_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/HBRun-Connect-Customer-Docs-1.1.0.zip",
+      "checksum_url": "https://github.com/hbstream/hbrun-downloads/releases/download/hbrun-connect-v1.1.0/HBRun-Connect-Customer-Docs-1.1.0.zip.sha256",
+      "mirrors": {
+        "gitee": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/HBRun-Connect-Customer-Docs-1.1.0.zip",
+        "gitee_checksum": "https://gitee.com/hbstream/connect-downloads/releases/download/hbrun-connect-v1.1.0/HBRun-Connect-Customer-Docs-1.1.0.zip.sha256"
+      }
+    }
+  ],
+  "schema_version": 2,
+  "release_channel": "stable",
+  "prerelease": false,
+  "release_url": "https://github.com/hbstream/hbrun-downloads/releases/tag/hbrun-connect-v1.1.0",
+  "mirror_release_url": "https://gitee.com/hbstream/connect-downloads/releases/tag/hbrun-connect-v1.1.0",
+  "published_at": "2026-10-09T08:50:33Z",
+  "distribution": {
+    "primary": "github",
+    "mirror": "gitee",
+    "exact_asset_identity_required": true,
+    "github_asset_count": 34,
+    "gitee_asset_count": 34
+  }
+}

@@ -15,6 +15,11 @@
       "id": "streamcall",
       "name": "StreamCall",
       "latest_manifest": "manifests/streamcall/latest.json"
+    },
+    {
+      "id": "hbrun_connect",
+      "name": "HBRun Connect",
+      "latest_manifest": "manifests/connect/latest.json"
     }
   ]
 }
