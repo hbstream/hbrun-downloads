@@ -27,7 +27,7 @@ HBRun Connect 1.1.0 provides Windows Server, Expert and attended Field installer
 - StreamCore SDK: [https://hbrun.com/products/streamcore-sdk](https://hbrun.com/products/streamcore-sdk)
 - StreamGate: [https://hbrun.com/products/streamgate](https://hbrun.com/products/streamgate)
 - StreamCall: [https://hbrun.com/products/streamcall](https://hbrun.com/products/streamcall)
-- HBRun Connect: [https://hbrun.com/products/connect](https://hbrun.com/products/connect)
+- HBRun Connect: [https://hbrun.com/products/hbrun-connect](https://hbrun.com/products/hbrun-connect)
 - Downloads: [https://hbrun.com/downloads](https://hbrun.com/downloads)
 
 ### Repository Layout
@@ -73,7 +73,7 @@ HBRun Connect 1.1.0 提供 Windows 服务端、专家端和有人值守现场端
 - StreamCore SDK：[https://hbrun.com/products/streamcore-sdk](https://hbrun.com/products/streamcore-sdk)
 - StreamGate：[https://hbrun.com/products/streamgate](https://hbrun.com/products/streamgate)
 - StreamCall：[https://hbrun.com/products/streamcall](https://hbrun.com/products/streamcall)
-- HBRun Connect：[https://hbrun.com/products/connect](https://hbrun.com/products/connect)
+- HBRun Connect：[https://hbrun.com/products/hbrun-connect](https://hbrun.com/products/hbrun-connect)
 - 下载中心：[https://hbrun.com/downloads](https://hbrun.com/downloads)
 
 ### 仓库结构
