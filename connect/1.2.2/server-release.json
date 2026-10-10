@@ -1,0 +1,30 @@
+{
+  "schema": "hbrun.connect.server-release/v1",
+  "product_id": "hbrun_connect",
+  "version": "1.2.2",
+  "release_tag": "hbrun-connect-v1.2.2",
+  "publication_status": "publication_ready",
+  "scope": "linux_server_only",
+  "source_commit": "a7ad599d822dd5deeeb1ce43746d29e19b31403a",
+  "client_compatibility": "official_clients_1.2.0",
+  "server_packages": [
+    {
+      "architecture": "x86_64",
+      "filename": "hbrun-connect-server-1.2.2-linux-x86_64.tar.gz",
+      "size_bytes": 1410532486,
+      "sha256": "46aba881a2d610458afe73387dd915d7a51cc16e56750cacdaaa73a0e3d9b3bf",
+      "release_attestation_filename": "hbrun-connect-server-1.2.2-linux-x86_64.release-attestation.json",
+      "release_attestation_sha256": "018d895ac71ceb247183209ec7475b4db48a32f3b53d85b0d4030f87b081f779",
+      "release_manifest_sha256": "78d8bb236395df9fa076f6d091982a46fe31127eba8de897f4e3054ed9481f86"
+    },
+    {
+      "architecture": "arm64",
+      "filename": "hbrun-connect-server-1.2.2-linux-arm64.tar.gz",
+      "size_bytes": 1441982069,
+      "sha256": "468636ba5a13671474a709f2661ee0155b4d43f3bbf341e2ad66a98af80197ae",
+      "release_attestation_filename": "hbrun-connect-server-1.2.2-linux-arm64.release-attestation.json",
+      "release_attestation_sha256": "59d32a479073bf51527c1d70493335474bd7e024e692f8c7dc099eec3b1ed3d0",
+      "release_manifest_sha256": "e447254b154f5da96d496ed2ab36419ec811e69a1a6a7003cc3cbd0a8e5ff66c"
+    }
+  ]
+}
